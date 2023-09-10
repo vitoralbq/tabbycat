@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-07-04 21:48\n"
+"PO-Revision-Date: 2023-09-10 07:54\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: availability/apps.py availability/views.py
 msgid "Availability"
-msgstr ""
+msgstr "可用性"
 
 #: availability/models.py
 msgid "content type"
@@ -27,7 +27,7 @@ msgstr "コンテンツタイプ"
 
 #: availability/models.py
 msgid "object id"
-msgstr ""
+msgstr "オブジェクトID"
 
 #: availability/models.py
 msgid "round"
@@ -35,11 +35,11 @@ msgstr "ラウンド"
 
 #: availability/models.py
 msgid "round availability"
-msgstr ""
+msgstr "ラウンドの空き状況"
 
 #: availability/models.py
 msgid "round availabilities"
-msgstr ""
+msgstr "ラウンドの空き状況"
 
 #: availability/templates/availability_index.html
 msgid "Mark All Breaking Adjs as Available"
@@ -61,7 +61,7 @@ msgstr "対戦表を確認する"
 #: availability/templates/availability_index.html
 #, python-format
 msgid "%(previous_unconfirmed)s debates from %(round)s do not have a completed ballot — this may lead to a draw that fails or is incorrect"
-msgstr ""
+msgstr "%(previous_unconfirmed)s のディベート %(round)s は投票が完了していません。これにより、次戦における抽選が失敗または不正確になる可能性があります。"
 
 #: availability/templates/availability_index.html
 msgid "Generate Draw"
