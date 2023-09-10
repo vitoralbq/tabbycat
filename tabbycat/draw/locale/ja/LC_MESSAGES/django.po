@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-07-04 21:48\n"
+"PO-Revision-Date: 2023-09-10 07:54\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -493,7 +493,7 @@ msgstr[0] ""
 
 #: draw/templates/draw_base.html
 msgid "Availability"
-msgstr ""
+msgstr "可用性"
 
 #: draw/templates/draw_base.html draw/templates/draw_status_draft.html
 msgid "Edit Sides/Matchups"
