@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-11-02 18:57\n"
+"PO-Revision-Date: 2023-11-02 21:31\n"
 "Last-Translator: \n"
 "Language-Team: Asturian\n"
 "Language: ast_ES\n"
@@ -406,7 +406,7 @@ msgstr ""
 #: templates/footer.html
 #, python-format
 msgid "%(tournament)s runs on Tabbycat %(tabbycat_version)s (%(tabbycat_codename)s)"
-msgstr "%(tournament)s funciona con Tabbycat %(tabbycat_version)s (%(tabbycat_codename)s)"
+msgstr "%(tournament)s furrula con Tabbycat %(tabbycat_version)s (%(tabbycat_codename)s)"
 
 #: templates/footer.html
 #, python-format
@@ -424,7 +424,7 @@ msgstr ""
 
 #: templates/footer.html
 msgid "Learn more about donating."
-msgstr "Más información sobre les donaciones."
+msgstr "Depriende más sobre les donaciones."
 
 #: templates/footer.html
 msgid "<a href=\"https://opencollective.com/tabbycat\">Donations to Tabbycat from individuals or organisations</a> are much appreciated and help us to continue to develop, support, and maintain Tabbycat."
