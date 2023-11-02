@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-11-02 15:59\n"
+"PO-Revision-Date: 2023-11-02 17:45\n"
 "Last-Translator: \n"
 "Language-Team: Asturian\n"
 "Language: ast_ES\n"
@@ -406,7 +406,7 @@ msgstr ""
 #: templates/footer.html
 #, python-format
 msgid "%(tournament)s runs on Tabbycat %(tabbycat_version)s (%(tabbycat_codename)s)"
-msgstr ""
+msgstr "%(tournament)s funciona con Tabbycat %(tabbycat_version)s (%(tabbycat_codename)s)"
 
 #: templates/footer.html
 #, python-format
@@ -424,7 +424,7 @@ msgstr ""
 
 #: templates/footer.html
 msgid "Learn more about donating."
-msgstr ""
+msgstr "Más información sobre les donaciones."
 
 #: templates/footer.html
 msgid "<a href=\"https://opencollective.com/tabbycat\">Donations to Tabbycat from individuals or organisations</a> are much appreciated and help us to continue to develop, support, and maintain Tabbycat."
@@ -432,12 +432,12 @@ msgstr ""
 
 #: templates/footer.html
 msgid "Still timing debates with the stopwatch app?"
-msgstr ""
+msgstr "¿Sigues cuntando los debates cola app del reló de tiempu?"
 
 #: templates/footer.html
 #, python-format
 msgid "Using an app designed for debate timekeeping makes speaking and adjudicating easier! Check out <a href=\"https://itunes.apple.com/app/apple-store/id1156065589?pt=814172&ct=Tabbycat%%20Installs&mt=8\">Timekept</a> (iPhone/iPad) or <a href=\"https://play.google.com/store/apps/details?id=net.czlee.debatekeeper&referrer=utm_source%%3Dtabbycat%%26utm_medium%%3Dfooter\">Debatekeeper</a> (Android)."
-msgstr ""
+msgstr "¡Usar una app diseñada pa rexir el tiempu de los debates fai que falar y xulgar sía más fácil! Avéralo equí <a href=\"https://itunes.apple.com/app/apple-store/id1156065589?pt=814172&ct=Tabbycat%%20Installs&mt=8\">Timekept</a> (iPhone/iPad) o <a href=\"https://play.google.com/store/apps/details?id=net.czlee.debatekeeper&referrer=utm_source%%3Dtabbycat%%26utm_medium%%3Dfooter\">Debatekeeper</a> (Android)."
 
 #: templates/footer.html
 msgid "Our Organisation"
@@ -449,7 +449,7 @@ msgstr ""
 
 #: templates/footer.html
 msgid "Language"
-msgstr ""
+msgstr "Llingua"
 
 #: templates/footer.html
 msgid "GitHub"
@@ -457,11 +457,11 @@ msgstr ""
 
 #: templates/footer.html
 msgid "Documentation"
-msgstr ""
+msgstr "Decumentación"
 
 #: templates/footer.html
 msgid "Support"
-msgstr ""
+msgstr "Esfotu"
 
 #: templates/footer.html
 msgid "Facebook"
@@ -469,11 +469,11 @@ msgstr ""
 
 #: templates/footer.html
 msgid "Set Up A Copy"
-msgstr ""
+msgstr "Estalar una copia"
 
 #: templates/footer.html
 msgid "Change Language"
-msgstr ""
+msgstr "Camudar llingua"
 
 #: templates/footer.html
 msgid "Use this language"
@@ -624,7 +624,7 @@ msgstr ""
 
 #: templates/nav/admin_nav.html templates/nav/public_nav.html
 msgid "Motions"
-msgstr ""
+msgstr "Mociones"
 
 #: templates/nav/admin_nav.html templates/nav/public_nav.html
 msgid "Diversity"
