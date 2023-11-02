@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-11-02 17:45\n"
+"PO-Revision-Date: 2023-11-02 19:54\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Asturian\n"
 "Language: ast_ES\n"
@@ -981,22 +981,22 @@ msgstr ""
 #: tournaments/utils.py
 msgctxt "BP position"
 msgid "OG"
-msgstr ""
+msgstr "AG"
 
 #: tournaments/utils.py
 msgctxt "BP position"
 msgid "OO"
-msgstr ""
+msgstr "AO"
 
 #: tournaments/utils.py
 msgctxt "BP position"
 msgid "CG"
-msgstr ""
+msgstr "BG"
 
 #: tournaments/utils.py
 msgctxt "BP position"
 msgid "CO"
-msgstr ""
+msgstr "BO"
 
 #: tournaments/utils.py
 #, python-format
