@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-09-14 20:05\n"
+"PO-Revision-Date: 2023-11-02 17:45\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Asturian\n"
 "Language: ast_ES\n"
@@ -1277,7 +1277,7 @@ msgstr ""
 
 #: options/preferences.py options/templates/preferences_index.html
 msgid "Motions"
-msgstr ""
+msgstr "Mociones"
 
 #: options/preferences.py
 msgid "If checked, ballots require a motion to be entered"
