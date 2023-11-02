@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-11-02 17:45\n"
+"PO-Revision-Date: 2023-11-02 18:57\n"
 "Last-Translator: \n"
 "Language-Team: Asturian\n"
 "Language: ast_ES\n"
@@ -477,7 +477,7 @@ msgstr "Camudar llingua"
 
 #: templates/footer.html
 msgid "Use this language"
-msgstr ""
+msgstr "Emplegar esta llingua"
 
 #: templates/nav/admin_nav.html templates/nav/top_nav_base.html
 msgid "Tabbycat Logo"
@@ -616,7 +616,7 @@ msgstr ""
 #: templates/nav/admin_nav.html templates/nav/public_nav.html
 #, python-format
 msgid "%(category)s Speakers"
-msgstr ""
+msgstr "Llista d'oradores de %(category)s"
 
 #: templates/nav/admin_nav.html
 msgid "Replies"
