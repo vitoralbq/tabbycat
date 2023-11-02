@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-11-02 17:45\n"
+"PO-Revision-Date: 2023-11-02 21:31\n"
 "Last-Translator: \n"
 "Language-Team: Asturian\n"
 "Language: ast_ES\n"
@@ -156,7 +156,7 @@ msgstr ""
 #: motions/templates/motion_round_statistics.html
 #: motions/templates/public_motions.html
 msgid "View Info Slide"
-msgstr ""
+msgstr "Ver Info Slide"
 
 #: motions/templates/motion_statistics_bp_elim.html
 #, python-format
@@ -209,34 +209,34 @@ msgstr ""
 
 #: motions/templates/motion_statistics_bp_prelim.html
 msgid "Government"
-msgstr ""
+msgstr "Gobiernu"
 
 #: motions/templates/motion_statistics_bp_prelim.html
 msgid "Opposition"
-msgstr ""
+msgstr "Oposición"
 
 #: motions/templates/motion_statistics_bp_prelim.html
 msgid "Average Points per bench"
-msgstr ""
+msgstr "Puntos permediu per cámares (alt. vs bax.)"
 
 #: motions/templates/motion_statistics_bp_prelim.html
 msgid "Opening"
-msgstr ""
+msgstr "Alta"
 
 #: motions/templates/motion_statistics_bp_prelim.html
 msgid "Closing"
-msgstr ""
+msgstr "Baxa"
 
 #: motions/templates/motion_statistics_bp_prelim.html
 msgid "Average Points per half"
-msgstr ""
+msgstr "Puntos permediu per bancada (go. vs opo.)"
 
 #: motions/templates/motion_statistics_bp_prelim.html
 #, python-format
 msgid "average points per position (%(ndebates)s debate)"
 msgid_plural "average points per position (%(ndebates)s debates)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "puntos permediu per posición (%(ndebates)s debate)"
+msgstr[1] "puntos permediu per posición (%(ndebates)s debates)"
 
 #: motions/templates/motion_statistics_bp_prelim.html
 #, python-format
@@ -308,7 +308,7 @@ msgstr[1] ""
 
 #: motions/templates/motions_info.html
 msgid "Info Slide"
-msgstr ""
+msgstr "Info Slide"
 
 #: motions/templates/public_motions.html
 msgid "There are no motions available for this round."
@@ -402,5 +402,5 @@ msgstr ""
 
 #: motions/views.py
 msgid "Motion Statistics"
-msgstr ""
+msgstr "Estadístiques de les mociones"
 
