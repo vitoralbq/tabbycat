@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-11-02 14:13\n"
+"PO-Revision-Date: 2023-11-02 15:59\n"
 "Last-Translator: \n"
 "Language-Team: Asturian\n"
 "Language: ast_ES\n"
@@ -194,7 +194,7 @@ msgstr ""
 
 #: checkins/views.py templates/nav/public_nav.html
 msgid "Adjudicators"
-msgstr ""
+msgstr "Xueces"
 
 #: checkins/views.py
 msgid "Rooms"
@@ -705,7 +705,7 @@ msgstr ""
 
 #: templates/nav/public_nav.html
 msgid "Motions Tab"
-msgstr ""
+msgstr "Llista de mociones"
 
 #: templates/nav/public_nav.html
 msgid "By round"
@@ -738,7 +738,7 @@ msgstr "Resultaos"
 
 #: templates/nav/public_nav.html
 msgid "Break"
-msgstr ""
+msgstr "Cache"
 
 #: templates/nav/public_nav.html
 msgid "Feedback Progress"
