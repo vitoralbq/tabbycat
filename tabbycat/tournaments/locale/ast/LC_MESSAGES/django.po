@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-11-02 00:24\n"
+"PO-Revision-Date: 2023-11-02 15:59\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Asturian\n"
 "Language: ast_ES\n"
@@ -539,7 +539,7 @@ msgstr ""
 
 #: tournaments/templates/public_tournament_index.html
 msgid "Motions Tab"
-msgstr ""
+msgstr "Llista de mociones"
 
 #: tournaments/templates/public_tournament_index.html
 msgid "Sides"
@@ -569,7 +569,7 @@ msgstr ""
 
 #: tournaments/templates/public_tournament_index.html
 msgid "Results"
-msgstr "Resultaus"
+msgstr "Resultaos"
 
 #: tournaments/templates/public_tournament_index.html
 msgid "Motions"
