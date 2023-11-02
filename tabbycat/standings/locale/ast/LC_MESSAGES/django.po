@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-11-02 17:45\n"
+"PO-Revision-Date: 2023-11-02 18:57\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Asturian\n"
 "Language: ast_ES\n"
@@ -147,7 +147,7 @@ msgstr ""
 
 #: standings/speakers.py
 msgid "Team"
-msgstr ""
+msgstr "Equipu"
 
 #: standings/speakers.py
 msgid "standard deviation"
@@ -187,11 +187,11 @@ msgstr ""
 
 #: standings/teams.py
 msgid "points"
-msgstr ""
+msgstr "puntos"
 
 #: standings/teams.py
 msgid "Pts"
-msgstr ""
+msgstr "Pts."
 
 #: standings/teams.py
 msgid "wins"
@@ -203,7 +203,7 @@ msgstr ""
 
 #: standings/teams.py
 msgid "total speaker score"
-msgstr ""
+msgstr "puntos d'orador totales"
 
 #: standings/teams.py
 msgid "Spk"
