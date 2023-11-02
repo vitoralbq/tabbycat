@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-14 04:50+1100\n"
-"PO-Revision-Date: 2023-09-14 20:05\n"
+"PO-Revision-Date: 2023-11-02 18:57\n"
 "Last-Translator: \n"
 "Language-Team: Asturian\n"
 "Language: ast_ES\n"
@@ -205,7 +205,7 @@ msgstr ""
 
 #: printing/templates/PrintableBallotHeader.vue:
 msgid "Team"
-msgstr ""
+msgstr "Equipu"
 
 #: printing/templates/PrintableDebateInfo.vue:
 msgid "Mark speeches %1 to %2; <strong>%3</strong>."
@@ -341,7 +341,7 @@ msgstr ""
 
 #: templates/tables/TablesContainer.vue:8
 msgid "Find in Table"
-msgstr ""
+msgstr "Atopar na llista"
 
 #: templates/tables/CheckboxTables.vue:30
 msgid "Set All Breaking as Available"
