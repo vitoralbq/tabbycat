@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-11-05 11:02\n"
+"PO-Revision-Date: 2023-11-05 12:20\n"
 "Last-Translator: \n"
 "Language-Team: Kazakh\n"
 "Language: kk_KZ\n"
@@ -27,23 +27,23 @@ msgstr "мәтін"
 
 #: motions/models.py
 msgid "The full motion e.g., \"This House would straighten all bananas\""
-msgstr ""
+msgstr "Қарарды толық жазыңыз, мысалы, \"Бұл палата Қазақ дебатын дамытады\""
 
 #: motions/models.py
 msgid "reference"
-msgstr ""
+msgstr "сілтеме"
 
 #: motions/models.py
 msgid "Shortcode for the motion, e.g., \"Bananas\""
-msgstr ""
+msgstr "Қарарды қысқартып жазыңыз, мысалы, \"Қазақ дебаты\""
 
 #: motions/models.py
 msgid "info slide"
-msgstr ""
+msgstr "түсініктеме"
 
 #: motions/models.py
 msgid "The information slide for this topic; if it has one"
-msgstr ""
+msgstr "Осы тақырыпқа түсініктеме"
 
 #: motions/models.py
 msgid "tournament"
@@ -51,7 +51,7 @@ msgstr "турнир"
 
 #: motions/models.py
 msgid "rounds"
-msgstr ""
+msgstr "ойындар"
 
 #: motions/models.py
 msgid "motion"
@@ -67,11 +67,11 @@ msgstr "пікірталастырушы топ"
 
 #: motions/models.py
 msgid "preferences"
-msgstr ""
+msgstr "артықшылықтар"
 
 #: motions/models.py
 msgid "ballot submission"
-msgstr ""
+msgstr "төреші парағын тапсыру"
 
 #: motions/models.py
 msgid "debate team motion preference"
