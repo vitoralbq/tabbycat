@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-28 12:44-0400\n"
-"PO-Revision-Date: 2023-11-05 09:06\n"
+"PO-Revision-Date: 2023-11-05 10:05\n"
 "Last-Translator: \n"
 "Language-Team: Kazakh\n"
 "Language: kk_KZ\n"
@@ -60,7 +60,7 @@ msgstr ""
 
 #: adjallocation/apps.py
 msgid "Adjudicator Allocation"
-msgstr ""
+msgstr "Төрешілерді бекіту"
 
 #: adjallocation/consumers.py
 msgid "Draw is already released, unrelease draw to redo auto-allocations."
@@ -425,11 +425,11 @@ msgstr ""
 
 #: adjallocation/views.py
 msgid "Team-Institution Conflicts"
-msgstr ""
+msgstr "Ойыншылар мен қауымдастық арасындағы шектеулер"
 
 #: adjallocation/views.py
 msgid "Save Team-Institution Conflicts"
-msgstr ""
+msgstr "Ойыншылар мен қауымдастық арасындағы шектеулер"
 
 #: adjallocation/views.py
 #, python-format
