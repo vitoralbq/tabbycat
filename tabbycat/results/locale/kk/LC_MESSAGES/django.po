@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-11-05 12:20\n"
+"PO-Revision-Date: 2023-11-08 06:26\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Kazakh\n"
 "Language: kk_KZ\n"
@@ -31,7 +31,7 @@ msgstr[1] ""
 
 #: results/apps.py results/templates/public_results_index.html results/views.py
 msgid "Results"
-msgstr ""
+msgstr "Нәтиже"
 
 #: results/forms.py
 msgid "Tournament password"
@@ -324,7 +324,7 @@ msgstr ""
 
 #: results/models.py
 msgid "rank"
-msgstr ""
+msgstr "орын"
 
 #: results/models.py
 msgid "ghost"
@@ -1080,7 +1080,7 @@ msgstr ""
 
 #: results/views.py
 msgid "Adjudicator"
-msgstr ""
+msgstr "Төреші"
 
 #: results/views.py
 msgid "Merge Ballots"
