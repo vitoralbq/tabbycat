@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-28 12:44-0400\n"
-"PO-Revision-Date: 2023-11-05 07:24\n"
+"PO-Revision-Date: 2023-11-08 06:26\n"
 "Last-Translator: \n"
 "Language-Team: Kazakh\n"
 "Language: kk_KZ\n"
@@ -218,7 +218,7 @@ msgstr ""
 
 #: adjfeedback/models.py
 msgid "question"
-msgstr ""
+msgstr "сұрақ"
 
 #: adjfeedback/models.py
 msgid "feedback"
@@ -226,7 +226,7 @@ msgstr "кері байланыс"
 
 #: adjfeedback/models.py
 msgid "answer"
-msgstr ""
+msgstr "жауап"
 
 #: adjfeedback/models.py
 msgid "adjudicator feedback boolean answer"
@@ -298,11 +298,11 @@ msgstr ""
 
 #: adjfeedback/models.py
 msgid "select one"
-msgstr ""
+msgstr "біреуін таңдау"
 
 #: adjfeedback/models.py
 msgid "select multiple"
-msgstr ""
+msgstr "бірнешеуін таңдау"
 
 #: adjfeedback/models.py
 msgid "tournament"
@@ -318,7 +318,7 @@ msgstr ""
 
 #: adjfeedback/models.py
 msgid "name"
-msgstr ""
+msgstr "аты"
 
 #: adjfeedback/models.py
 msgid "A short name for the question, e.g., \"Agree with decision\""
@@ -394,7 +394,7 @@ msgstr ""
 
 #: adjfeedback/models.py adjfeedback/views.py
 msgid "ignored"
-msgstr ""
+msgstr "жауап берілмеген"
 
 #: adjfeedback/models.py
 msgid "Whether the feedback should affect the adjudicator's score"
@@ -402,11 +402,11 @@ msgstr ""
 
 #: adjfeedback/models.py
 msgid "adjudicator feedback"
-msgstr ""
+msgstr "төрешіге берілген кері байланыс"
 
 #: adjfeedback/models.py
 msgid "adjudicator feedbacks"
-msgstr ""
+msgstr "төрешіге берілген кері байланыстар"
 
 #: adjfeedback/models.py
 msgid "Either the source adjudicator or source team wasn't specified."
@@ -498,7 +498,7 @@ msgstr ""
 #: adjfeedback/templates/add_feedback.html
 #: adjfeedback/templates/enter_feedback.html
 msgid "Enter Feedback"
-msgstr ""
+msgstr "Кері байланыс беру"
 
 #: adjfeedback/templates/enter_feedback.html
 #: adjfeedback/templates/public_add_feedback.html
@@ -651,7 +651,7 @@ msgstr ""
 
 #: adjfeedback/templates/feedback_card.html
 msgid "Confirm"
-msgstr ""
+msgstr "Растау"
 
 #: adjfeedback/templates/feedback_card.html
 msgid "Ignored feedback is counted as having been submitted, but does not affect this adjudicator's score."
@@ -719,7 +719,7 @@ msgstr ""
 
 #: adjfeedback/templates/overview_breakdowns.html
 msgid "Feedback"
-msgstr ""
+msgstr "Кері байланыс"
 
 #: adjfeedback/templates/overview_breakdowns.html
 #, python-format
@@ -852,19 +852,19 @@ msgstr[1] ""
 
 #: adjfeedback/views.py
 msgid "Feedbacks"
-msgstr ""
+msgstr "Кері байланыс"
 
 #: adjfeedback/views.py
 msgid "Find Feedback"
-msgstr ""
+msgstr "Кері байланысты іздеу"
 
 #: adjfeedback/views.py
 msgid "From Teams"
-msgstr ""
+msgstr "Қатысушылар"
 
 #: adjfeedback/views.py
 msgid "From Adjudicators"
-msgstr ""
+msgstr "Төрешілер"
 
 #: adjfeedback/views.py
 msgid "Latest Feedback"
@@ -892,23 +892,23 @@ msgstr ""
 
 #: adjfeedback/views.py
 msgid "A Team"
-msgstr ""
+msgstr "Топ"
 
 #: adjfeedback/views.py
 msgid "Team"
-msgstr ""
+msgstr "Топ"
 
 #: adjfeedback/views.py
 msgid "Institution"
-msgstr ""
+msgstr "Қауымдастық"
 
 #: adjfeedback/views.py
 msgid "An Adjudicator"
-msgstr ""
+msgstr "Төреші"
 
 #: adjfeedback/views.py
 msgid "Adjudicator"
-msgstr ""
+msgstr "Төреші"
 
 #: adjfeedback/views.py
 #, python-format
