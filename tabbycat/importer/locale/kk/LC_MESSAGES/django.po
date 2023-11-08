@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-07-04 21:53\n"
+"PO-Revision-Date: 2023-11-08 06:27\n"
 "Last-Translator: \n"
 "Language-Team: Kazakh\n"
 "Language: kk_KZ\n"
@@ -56,7 +56,7 @@ msgstr[1] ""
 
 #: importer/forms.py
 msgid "Speakers' names"
-msgstr ""
+msgstr "Ойыншылардың аттары"
 
 #: importer/forms.py
 msgid "Can be separated by newlines, tabs or commas"
@@ -64,7 +64,7 @@ msgstr ""
 
 #: importer/forms.py
 msgid "Speakers' email addresses"
-msgstr ""
+msgstr "Ойыншылардың электронды пошталары"
 
 #: importer/forms.py
 msgid "Optional, useful to include if distributing private URLs, list in same order as speakers' names"
@@ -183,7 +183,7 @@ msgstr ""
 
 #: importer/templates/archive_export_index.html
 msgid "Export all data"
-msgstr ""
+msgstr "Барлық ақпаратты шығару"
 
 #: importer/templates/archive_importer.html
 msgctxt "page title"
@@ -262,7 +262,7 @@ msgstr ""
 #: importer/templates/simple_import_teams_numbers.html
 msgctxt "button"
 msgid "Next Step"
-msgstr ""
+msgstr "Келесі қадам"
 
 #: importer/templates/simple_import_index.html
 msgid "Simple Importer"
@@ -274,19 +274,19 @@ msgstr ""
 
 #: importer/templates/simple_import_index.html
 msgid "Add Institutions"
-msgstr ""
+msgstr "Қауымдастықтарды қосу"
 
 #: importer/templates/simple_import_index.html
 msgid "Add Teams"
-msgstr ""
+msgstr "Топтарды қосу"
 
 #: importer/templates/simple_import_index.html
 msgid "Add Adjudicators"
-msgstr ""
+msgstr "Төрешілерді қосу"
 
 #: importer/templates/simple_import_index.html
 msgid "Add Rooms"
-msgstr ""
+msgstr "Аудиторияларды қосу"
 
 #: importer/templates/simple_import_index.html
 msgid "Add/Edit Room Categories"
@@ -324,11 +324,11 @@ msgstr ""
 #: importer/templates/simple_import_institutions_raw.html
 msgctxt "page title"
 msgid "Add Institutions"
-msgstr ""
+msgstr "Қауымдастықтарды қосу"
 
 #: importer/templates/simple_import_institutions_details.html
 msgid "Save All Institutions"
-msgstr ""
+msgstr "Барлық қауымдастықты сақтау"
 
 #: importer/templates/simple_import_institutions_raw.html
 #: importer/templates/simple_import_venues_raw.html
@@ -338,13 +338,13 @@ msgstr ""
 #: importer/templates/simple_import_institutions_raw.html
 #: importer/templates/simple_import_venues_raw.html
 msgid "Next Step"
-msgstr ""
+msgstr "Келесі қадам"
 
 #: importer/templates/simple_import_teams_details.html
 #: importer/templates/simple_import_teams_numbers.html
 msgctxt "page title"
 msgid "Add Teams"
-msgstr ""
+msgstr "Топтарды қосу"
 
 #: importer/templates/simple_import_teams_details.html
 #, python-format
@@ -357,7 +357,7 @@ msgstr ""
 
 #: importer/templates/simple_import_teams_details.html
 msgid "Save All Teams"
-msgstr ""
+msgstr "Барлық топты сақтау"
 
 #: importer/templates/simple_import_teams_numbers.html
 #, python-format
@@ -376,7 +376,7 @@ msgstr ""
 #: importer/templates/simple_import_venues_raw.html
 msgctxt "page title"
 msgid "Add Rooms"
-msgstr ""
+msgstr "Аудиторияларды қосу"
 
 #: importer/templates/simple_import_venues_details.html
 msgid "Priorities indicate how much you want to use the room. Larger numbers indicate higher priority. If you have more rooms than debates, the rooms with the lowest priorities will not be used."
@@ -384,7 +384,7 @@ msgstr ""
 
 #: importer/templates/simple_import_venues_details.html
 msgid "Save All Rooms"
-msgstr ""
+msgstr "Барлық аудиторияны сақтау"
 
 #: importer/templates/simple_import_venues_raw.html
 msgid "Paste a list of rooms with one room per line and following the format of: <code>name,priority</code>. For example:"
