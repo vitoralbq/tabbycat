@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-07-04 21:53\n"
+"PO-Revision-Date: 2023-11-08 06:27\n"
 "Last-Translator: \n"
 "Language-Team: Kazakh\n"
 "Language: kk_KZ\n"
@@ -190,15 +190,15 @@ msgstr ""
 
 #: checkins/views.py templates/nav/admin_nav.html
 msgid "Speakers"
-msgstr ""
+msgstr "Ойыншылар"
 
 #: checkins/views.py templates/nav/public_nav.html
 msgid "Adjudicators"
-msgstr ""
+msgstr "Төрешілер"
 
 #: checkins/views.py
 msgid "Rooms"
-msgstr ""
+msgstr "Аудиториялар"
 
 #: checkins/views.py
 #, python-format
@@ -319,7 +319,7 @@ msgstr ""
 
 #: settings/core.py
 msgid "Translation"
-msgstr ""
+msgstr "Аударма"
 
 #: templates/admin/delete_protected_message.html
 msgid "You need to delete the above objects first."
@@ -473,11 +473,11 @@ msgstr ""
 
 #: templates/footer.html
 msgid "Change Language"
-msgstr ""
+msgstr "Тілді ауыстыру"
 
 #: templates/footer.html
 msgid "Use this language"
-msgstr ""
+msgstr "Осы тілді қолдану"
 
 #: templates/nav/admin_nav.html templates/nav/top_nav_base.html
 msgid "Tabbycat Logo"
@@ -526,7 +526,7 @@ msgstr ""
 #: templates/nav/admin_nav.html templates/nav/assistant_nav.html
 #: templates/nav/public_nav.html
 msgid "Participants"
-msgstr ""
+msgstr "Қатысушылар"
 
 #: templates/nav/admin_nav.html
 msgid "Private URLs"
@@ -558,7 +558,7 @@ msgstr ""
 
 #: templates/nav/admin_nav.html
 msgid "Feedback"
-msgstr ""
+msgstr "Кері байланыс"
 
 #: templates/nav/admin_nav.html
 msgid "Latest"
@@ -602,7 +602,7 @@ msgstr ""
 
 #: templates/nav/admin_nav.html
 msgid "Teams"
-msgstr ""
+msgstr "Топтар"
 
 #: templates/nav/admin_nav.html templates/nav/public_nav.html
 #, python-format
@@ -661,7 +661,7 @@ msgstr ""
 
 #: templates/nav/assistant_nav.html templates/nav/public_nav.html
 msgid "Enter Feedback"
-msgstr ""
+msgstr "Кері байланыс беру"
 
 #: templates/nav/assistant_nav.html
 msgid "Participants List"
@@ -669,7 +669,7 @@ msgstr ""
 
 #: templates/nav/assistant_nav.html templates/nav/public_nav.html
 msgid "Institutions"
-msgstr ""
+msgstr "Қауымдастықтар"
 
 #: templates/nav/assistant_nav.html
 msgid "Code Names"
@@ -689,11 +689,11 @@ msgstr ""
 
 #: templates/nav/public_nav.html
 msgid "Team Tab"
-msgstr ""
+msgstr "Топтардың тізімі"
 
 #: templates/nav/public_nav.html
 msgid "Speaker Tab"
-msgstr ""
+msgstr "Ойыншылардың тізімі"
 
 #: templates/nav/public_nav.html
 msgid "Replies Tab"
@@ -705,7 +705,7 @@ msgstr ""
 
 #: templates/nav/public_nav.html
 msgid "Motions Tab"
-msgstr ""
+msgstr "Қарарлар тізімі"
 
 #: templates/nav/public_nav.html
 msgid "By round"
@@ -734,11 +734,11 @@ msgstr ""
 
 #: templates/nav/public_nav.html templates/nav/round_panel.html
 msgid "Results"
-msgstr ""
+msgstr "Нәтиже"
 
 #: templates/nav/public_nav.html
 msgid "Break"
-msgstr ""
+msgstr "Іріктеуден өткендер"
 
 #: templates/nav/public_nav.html
 msgid "Feedback Progress"
