@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-07-04 21:53\n"
+"PO-Revision-Date: 2023-11-08 06:27\n"
 "Last-Translator: \n"
 "Language-Team: Kazakh\n"
 "Language: kk_KZ\n"
@@ -241,27 +241,27 @@ msgstr ""
 
 #: draw/models.py
 msgid "affirmative"
-msgstr ""
+msgstr "жақтаушы"
 
 #: draw/models.py
 msgid "negative"
-msgstr ""
+msgstr "даттаушы"
 
 #: draw/models.py
 msgid "opening government"
-msgstr ""
+msgstr "ашушы үкімет"
 
 #: draw/models.py
 msgid "opening opposition"
-msgstr ""
+msgstr "ашушы оппозиция"
 
 #: draw/models.py
 msgid "closing government"
-msgstr ""
+msgstr "жабушы үкімет"
 
 #: draw/models.py
 msgid "closing opposition"
-msgstr ""
+msgstr "жабушы оппозиция"
 
 #: draw/models.py
 msgid "team"
@@ -290,11 +290,11 @@ msgstr ""
 
 #: draw/models.py
 msgid "won"
-msgstr ""
+msgstr "жеңген"
 
 #: draw/models.py
 msgid "lost"
-msgstr ""
+msgstr "жеңілген"
 
 #: draw/models.py
 msgid "team side allocation"
@@ -554,7 +554,7 @@ msgstr ""
 
 #: draw/templates/draw_display_admin.html
 msgid "View Draw"
-msgstr ""
+msgstr "Ойын кестесін көру"
 
 #: draw/templates/draw_display_admin.html
 #, python-format
@@ -583,7 +583,7 @@ msgstr[1] ""
 #: draw/templates/draw_display_admin.html
 msgid "Edit the motion"
 msgid_plural "Edit motions"
-msgstr[0] ""
+msgstr[0] "Қарарды өзгерту"
 msgstr[1] ""
 
 #: draw/templates/draw_display_admin.html
@@ -597,7 +597,7 @@ msgstr ""
 #: draw/templates/draw_display_admin.html
 msgid "Enter a motion"
 msgid_plural "Enter motions"
-msgstr[0] ""
+msgstr[0] "Қарарды жазу"
 msgstr[1] ""
 
 #: draw/templates/draw_display_admin.html
@@ -785,55 +785,55 @@ msgstr ""
 
 #: draw/templates/draw_display_by.html
 msgid "Scroll Speed"
-msgstr ""
+msgstr "Айналдыру жылдамдығы"
 
 #: draw/templates/draw_display_by.html
 msgid "Fast"
-msgstr ""
+msgstr "Жылдам"
 
 #: draw/templates/draw_display_by.html
 msgid "Medium"
-msgstr ""
+msgstr "Орташа"
 
 #: draw/templates/draw_display_by.html
 msgid "Slow"
-msgstr ""
+msgstr "Жай"
 
 #: draw/templates/draw_display_by.html
 msgid "Extra Slow"
-msgstr ""
+msgstr "Өте жай"
 
 #: draw/templates/draw_display_by.html
 msgid "Hide Adjudicators"
-msgstr ""
+msgstr "Төрешілерді жасыру"
 
 #: draw/templates/draw_display_by.html
 msgid "Show Adjudicators"
-msgstr ""
+msgstr "Төрешілерді көрсету"
 
 #: draw/templates/draw_display_by.html
 msgid "Text Size"
-msgstr ""
+msgstr "Мәтіннің өлшемі"
 
 #: draw/templates/draw_display_by.html
 msgid "Tiny"
-msgstr ""
+msgstr "Кішкентай"
 
 #: draw/templates/draw_display_by.html
 msgid "Small"
-msgstr ""
+msgstr "Шағын"
 
 #: draw/templates/draw_display_by.html
 msgid "Large"
-msgstr ""
+msgstr "Үлкен"
 
 #: draw/templates/draw_display_by.html
 msgid "Huge"
-msgstr ""
+msgstr "Ірі"
 
 #: draw/templates/draw_display_by.html
 msgid "Stop Scroll"
-msgstr ""
+msgstr "Айналдыруды тоқтату"
 
 #: draw/templates/draw_not_released.html
 #, python-format
