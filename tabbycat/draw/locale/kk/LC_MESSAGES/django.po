@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-11-27 12:08\n"
+"PO-Revision-Date: 2023-11-27 13:39\n"
 "Last-Translator: \n"
 "Language-Team: Kazakh\n"
 "Language: kk_KZ\n"
@@ -172,19 +172,19 @@ msgstr ""
 
 #: draw/models.py
 msgid "none"
-msgstr ""
+msgstr "ешқайсысы"
 
 #: draw/models.py
 msgid "postponed"
-msgstr ""
+msgstr "кейінге қалдырылған"
 
 #: draw/models.py
 msgid "draft"
-msgstr ""
+msgstr "жоспар"
 
 #: draw/models.py
 msgid "confirmed"
-msgstr ""
+msgstr "бекітілген"
 
 #: draw/models.py
 msgid "round"
@@ -192,7 +192,7 @@ msgstr "ойын"
 
 #: draw/models.py
 msgid "room"
-msgstr ""
+msgstr "аудитория"
 
 #: draw/models.py
 msgid "bracket"
@@ -200,19 +200,19 @@ msgstr ""
 
 #: draw/models.py
 msgid "room rank"
-msgstr ""
+msgstr "ойын деңгейі"
 
 #: draw/models.py
 msgid "importance"
-msgstr ""
+msgstr "маңызы"
 
 #: draw/models.py
 msgid "result status"
-msgstr ""
+msgstr "нәтиже сипаты"
 
 #: draw/models.py
 msgid "sides confirmed"
-msgstr ""
+msgstr "тараптар бекітілген"
 
 #: draw/models.py
 msgid "If unchecked, the sides assigned to teams in this debate are just placeholders."
@@ -406,7 +406,7 @@ msgstr ""
 
 #: draw/tables.py
 msgid "Sides"
-msgstr ""
+msgstr "Тараптар"
 
 #: draw/tables.py
 msgid "position cost"
@@ -505,7 +505,7 @@ msgstr[1] ""
 
 #: draw/templates/draw_base.html
 msgid "Availability"
-msgstr ""
+msgstr "Түгендеу"
 
 #: draw/templates/draw_base.html draw/templates/draw_status_draft.html
 msgid "Edit Sides/Matchups"
@@ -513,7 +513,7 @@ msgstr ""
 
 #: draw/templates/draw_base.html
 msgid "Redo Draw"
-msgstr ""
+msgstr "Кестені қайта жасау"
 
 #: draw/templates/draw_base.html
 msgid "Draw Details"
@@ -563,7 +563,7 @@ msgstr ""
 
 #: draw/templates/draw_display_admin.html
 msgid "Add Start Time"
-msgstr ""
+msgstr "Басталу уақытын жазу"
 
 #: draw/templates/draw_display_admin.html
 msgid "Enter Results"
@@ -757,7 +757,7 @@ msgstr ""
 #: draw/templates/draw_display_admin.html
 #: draw/templates/draw_display_assistant.html
 msgid "Display Motions"
-msgstr ""
+msgstr "Қарарды көрсету"
 
 #: draw/templates/draw_display_admin.html
 msgid "Email Motions"
