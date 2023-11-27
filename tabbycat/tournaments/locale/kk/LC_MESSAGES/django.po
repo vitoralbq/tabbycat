@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-11-08 06:26\n"
+"PO-Revision-Date: 2023-11-27 12:08\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Kazakh\n"
 "Language: kk_KZ\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: tournaments/apps.py
 msgid "Tournaments"
-msgstr ""
+msgstr "Турнирлер"
 
 #: tournaments/forms.py
 msgid "Number of preliminary rounds"
@@ -36,7 +36,7 @@ msgstr ""
 
 #: tournaments/forms.py
 msgid "Did you agree with their decision?"
-msgstr ""
+msgstr "Шешіммен келісесіз бе?"
 
 #: tournaments/forms.py
 msgid "Agree?"
@@ -183,11 +183,11 @@ msgstr "турнир"
 
 #: tournaments/models.py
 msgid "tournaments"
-msgstr ""
+msgstr "турнирлер"
 
 #: tournaments/models.py
 msgid "Random"
-msgstr ""
+msgstr "Кездейсоқ"
 
 #: tournaments/models.py
 msgid "Manual"
@@ -535,7 +535,7 @@ msgstr ""
 
 #: tournaments/templates/public_tournament_index.html
 msgid "Adjudicator Tab"
-msgstr ""
+msgstr "Төрешілер тізімі"
 
 #: tournaments/templates/public_tournament_index.html
 msgid "Motions Tab"
@@ -543,7 +543,7 @@ msgstr "Қарарлар тізімі"
 
 #: tournaments/templates/public_tournament_index.html
 msgid "Sides"
-msgstr ""
+msgstr "Тараптар"
 
 #: tournaments/templates/public_tournament_index.html
 #, python-format
@@ -573,7 +573,7 @@ msgstr "Нәтиже"
 
 #: tournaments/templates/public_tournament_index.html
 msgid "Motions"
-msgstr ""
+msgstr "Қарарлар"
 
 #: tournaments/templates/public_tournament_index.html
 msgid "Team Standings"
@@ -623,7 +623,7 @@ msgstr ""
 
 #: tournaments/templates/round_complete_check.html
 msgid "Enter Results"
-msgstr ""
+msgstr "Нәтижелерді толтыру"
 
 #: tournaments/templates/round_complete_check.html
 msgid "Emails have already been sent."
@@ -733,7 +733,7 @@ msgstr ""
 
 #: tournaments/templates/site_index.html
 msgid "Welcome!"
-msgstr ""
+msgstr "Сәлем, пікірсайысышы!"
 
 #: tournaments/templates/site_index.html
 msgid "It looks like there aren't any tournaments on this site. Would you like to create one?"
@@ -753,15 +753,15 @@ msgstr ""
 
 #: tournaments/templates/site_index.html
 msgid "New Tournament"
-msgstr ""
+msgstr "Жаңа турнир"
 
 #: tournaments/templates/site_index.html
 msgid "Edit Database Area"
-msgstr ""
+msgstr "Мәліметтер жинағын өзгерту"
 
 #: tournaments/templates/site_index.html
 msgid "Send a Test Email"
-msgstr ""
+msgstr "Тексеруге арналған поштаны жіберу"
 
 #: tournaments/templates/site_index.html
 msgid "Import DebateXML"
@@ -848,43 +848,43 @@ msgstr "даттаушы"
 
 #: tournaments/utils.py
 msgid "affirmative team"
-msgstr ""
+msgstr "жақтаушы топ"
 
 #: tournaments/utils.py
 msgid "negative team"
-msgstr ""
+msgstr "даттаушы топ"
 
 #: tournaments/utils.py
 msgid "Aff"
-msgstr ""
+msgstr "Жақ"
 
 #: tournaments/utils.py
 msgid "Neg"
-msgstr ""
+msgstr "Дат"
 
 #: tournaments/utils.py
 msgid "government"
-msgstr ""
+msgstr "үкімет"
 
 #: tournaments/utils.py
 msgid "opposition"
-msgstr ""
+msgstr "оппозиция"
 
 #: tournaments/utils.py
 msgid "government team"
-msgstr ""
+msgstr "үкімет тобы"
 
 #: tournaments/utils.py
 msgid "opposition team"
-msgstr ""
+msgstr "оппозиция тобы"
 
 #: tournaments/utils.py
 msgid "Gov"
-msgstr ""
+msgstr "Үкі"
 
 #: tournaments/utils.py
 msgid "Opp"
-msgstr ""
+msgstr "Опп"
 
 #: tournaments/utils.py
 msgid "proposition"
@@ -964,39 +964,39 @@ msgstr "жабушы оппозиция"
 
 #: tournaments/utils.py
 msgid "opening government team"
-msgstr ""
+msgstr "ашушы үкімет тобы"
 
 #: tournaments/utils.py
 msgid "opening opposition team"
-msgstr ""
+msgstr "ашушы оппозиция тобы"
 
 #: tournaments/utils.py
 msgid "closing government team"
-msgstr ""
+msgstr "жабушы үкімет тобы"
 
 #: tournaments/utils.py
 msgid "closing opposition team"
-msgstr ""
+msgstr "жабушы оппозиция тобы"
 
 #: tournaments/utils.py
 msgctxt "BP position"
 msgid "OG"
-msgstr ""
+msgstr "АҮ"
 
 #: tournaments/utils.py
 msgctxt "BP position"
 msgid "OO"
-msgstr ""
+msgstr "АО"
 
 #: tournaments/utils.py
 msgctxt "BP position"
 msgid "CG"
-msgstr ""
+msgstr "ЖҮ"
 
 #: tournaments/utils.py
 msgctxt "BP position"
 msgid "CO"
-msgstr ""
+msgstr "ЖО"
 
 #: tournaments/utils.py
 #, python-format
