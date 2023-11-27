@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-28 12:44-0400\n"
-"PO-Revision-Date: 2023-11-05 10:05\n"
+"PO-Revision-Date: 2023-11-27 10:05\n"
 "Last-Translator: \n"
 "Language-Team: Kazakh\n"
 "Language: kk_KZ\n"
@@ -174,7 +174,7 @@ msgstr "топ"
 
 #: adjallocation/models.py
 msgid "adjudicator-team conflict"
-msgstr ""
+msgstr "төреші мен ойыншылар арасындағы шектеу"
 
 #: adjallocation/models.py
 msgid "adjudicator-team conflicts"
@@ -373,11 +373,11 @@ msgstr ""
 
 #: adjallocation/views.py
 msgid "Adjudicator-Adjudicator Conflicts"
-msgstr ""
+msgstr "Төреші мен төреші арасындағы шектеу"
 
 #: adjallocation/views.py
 msgid "Save Adjudicator-Adjudicator Conflicts"
-msgstr ""
+msgstr "Төреші мен төреші арасындағы шектеуді сақтау"
 
 #: adjallocation/views.py
 #, python-format
