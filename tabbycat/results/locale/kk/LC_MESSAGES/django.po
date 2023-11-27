@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-11-08 06:26\n"
+"PO-Revision-Date: 2023-11-27 12:08\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Kazakh\n"
 "Language: kk_KZ\n"
@@ -256,11 +256,11 @@ msgstr "ойын төрешісі"
 
 #: results/models.py
 msgid "debate team"
-msgstr ""
+msgstr "пікірталастырушы топ"
 
 #: results/models.py
 msgid "win"
-msgstr ""
+msgstr "жеңіс"
 
 #: results/models.py
 msgid "margin"
@@ -296,7 +296,7 @@ msgstr ""
 
 #: results/models.py
 msgid "points"
-msgstr ""
+msgstr "ұпайлар"
 
 #: results/models.py
 msgid "votes given"
@@ -360,7 +360,7 @@ msgstr ""
 
 #: results/templates/admin_results.html
 msgid "Display Draw"
-msgstr ""
+msgstr "Кестені көрсету"
 
 #: results/templates/admin_results.html
 msgid "Check-In Ballots"
@@ -466,7 +466,7 @@ msgstr ""
 
 #: results/templates/assistant_results.html results/views.py
 msgid "Enter Results"
-msgstr ""
+msgstr "Нәтижелерді толтыру"
 
 #: results/templates/assistant_results.html
 msgid "This page automatically updates with the new ballot entries and checkins as they occur."
@@ -504,11 +504,11 @@ msgstr ""
 
 #: results/templates/ballot/ballot_scoresheet.html
 msgid "Result"
-msgstr ""
+msgstr "Нәтиже"
 
 #: results/templates/ballot/ballot_scoresheet.html
 msgid "Rank"
-msgstr ""
+msgstr "Орын"
 
 #: results/templates/ballot/ballot_scoresheet.html
 msgid "Margin"
@@ -962,7 +962,7 @@ msgstr ""
 
 #: results/views.py
 msgid " vs "
-msgstr ""
+msgstr " қарсы "
 
 #: results/views.py
 #, python-format
