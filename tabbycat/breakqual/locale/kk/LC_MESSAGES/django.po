@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-11-08 06:27\n"
+"PO-Revision-Date: 2023-11-27 13:39\n"
 "Last-Translator: \n"
 "Language-Team: Kazakh\n"
 "Language: kk_KZ\n"
@@ -395,13 +395,13 @@ msgstr ""
 #: breakqual/utils.py
 #, python-format
 msgid "%sF"
-msgstr ""
+msgstr "Финал %s"
 
 #. Translators: abbreviation for "semifinals" - first character of category name
 #: breakqual/utils.py
 #, python-format
 msgid "%s Semifinals"
-msgstr ""
+msgstr "Жартылай финал %s"
 
 #: breakqual/utils.py
 #, python-format
@@ -412,23 +412,23 @@ msgstr ""
 #: breakqual/utils.py
 #, python-format
 msgid "%s Quarterfinals"
-msgstr ""
+msgstr "Ширек финал %s"
 
 #: breakqual/utils.py
 #, python-format
 msgid "%sQF"
-msgstr ""
+msgstr "ШФ %s"
 
 #. Translators: abbreviation for "octofinals" - first character of category name
 #: breakqual/utils.py
 #, python-format
 msgid "%s Octofinals"
-msgstr ""
+msgstr "Әшмүшке финал %s"
 
 #: breakqual/utils.py
 #, python-format
 msgid "%sOF"
-msgstr ""
+msgstr "Әф %s"
 
 #. Translators: abbreviation for "double-octofinals" - first character of category name
 #: breakqual/utils.py
@@ -505,7 +505,7 @@ msgstr ""
 
 #: breakqual/views.py
 msgid "Breaking Adjudicators"
-msgstr ""
+msgstr "Іріктеуден өткен төрешілер"
 
 #: breakqual/views.py
 msgid "Four-team formats require the break size to be either six times or four times a power of two."
