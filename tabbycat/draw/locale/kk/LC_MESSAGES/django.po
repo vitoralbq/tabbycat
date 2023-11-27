@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-11-08 06:27\n"
+"PO-Revision-Date: 2023-11-27 12:08\n"
 "Last-Translator: \n"
 "Language-Team: Kazakh\n"
 "Language: kk_KZ\n"
@@ -37,7 +37,7 @@ msgstr[1] ""
 
 #: draw/apps.py draw/views.py
 msgid "Draw"
-msgstr ""
+msgstr "Кесте"
 
 #: draw/generator/__init__.py
 msgid "Too many swaps"
@@ -224,7 +224,7 @@ msgstr "пікірсайыс"
 
 #: draw/models.py
 msgid "debates"
-msgstr ""
+msgstr "Ойындар"
 
 #. Translators: This is appended to a list of teams, e.g. "Auckland
 #. 1, Vic Wellington 1 (sides not confirmed)". Mind the leading
@@ -237,7 +237,7 @@ msgstr ""
 #. vs Vic Wellington 1". Mind the leading and trailing spaces.
 #: draw/models.py
 msgid " vs "
-msgstr ""
+msgstr " қарсы "
 
 #: draw/models.py
 msgid "affirmative"
@@ -273,11 +273,11 @@ msgstr ""
 
 #: draw/models.py
 msgid "debate team"
-msgstr ""
+msgstr "пікірталастырушы топ"
 
 #: draw/models.py
 msgid "debate teams"
-msgstr ""
+msgstr "пікірталастырушы топтар"
 
 #: draw/models.py
 #, python-format
@@ -526,7 +526,7 @@ msgstr ""
 #: draw/templates/draw_base.html draw/templates/draw_display_admin.html
 #: draw/templates/draw_display_assistant.html
 msgid "Display Draw"
-msgstr ""
+msgstr "Кестені көрсету"
 
 #: draw/templates/draw_confirm_regeneration.html
 msgid "Confirm draw regeneration"
@@ -535,7 +535,7 @@ msgstr ""
 #: draw/templates/draw_confirm_regeneration.html
 #: draw/templates/draw_subpage.html
 msgid "Back to Draw"
-msgstr ""
+msgstr "Кестені қайтару"
 
 #: draw/templates/draw_confirm_regeneration.html
 #, python-format
@@ -567,11 +567,11 @@ msgstr ""
 
 #: draw/templates/draw_display_admin.html
 msgid "Enter Results"
-msgstr ""
+msgstr "Нәтижелерді толтыру"
 
 #: draw/templates/draw_display_admin.html
 msgid "Motion Details"
-msgstr ""
+msgstr "Қарар"
 
 #: draw/templates/draw_display_admin.html
 #, python-format
@@ -905,11 +905,11 @@ msgstr[1] ""
 
 #: draw/templates/draw_status_draft.html
 msgid "Delete Draw"
-msgstr ""
+msgstr "Кестені өшіру"
 
 #: draw/templates/draw_status_draft.html
 msgid "Confirm Draw"
-msgstr ""
+msgstr "Кестені бекіту"
 
 #: draw/templates/draw_status_draft.html
 #, python-format
