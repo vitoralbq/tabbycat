@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-28 12:44-0400\n"
-"PO-Revision-Date: 2023-06-22 12:35\n"
+"PO-Revision-Date: 2024-01-18 23:21\n"
 "Last-Translator: \n"
 "Language-Team: Catalan\n"
 "Language: ca_ES\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: adjallocation/allocators/base.py
 msgid "There are no available adjudicators. Ensure there are adjudicators who have been marked as available for this round before auto-allocating."
-msgstr ""
+msgstr "No hi ha jutges disponibles. Assegura't que hi ha jutges marcats com a disponibles abans de fer l'autoubicació."
 
 #: adjallocation/allocators/hungarian.py
 #, python-format
