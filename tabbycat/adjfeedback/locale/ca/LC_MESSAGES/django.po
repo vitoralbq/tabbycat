@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-28 12:44-0400\n"
-"PO-Revision-Date: 2024-01-19 13:49\n"
+"PO-Revision-Date: 2024-01-19 15:37\n"
 "Last-Translator: \n"
 "Language-Team: Catalan\n"
 "Language: ca_ES\n"
@@ -596,45 +596,45 @@ msgstr "Ignorada; no afectarà la puntuació del jutge."
 
 #: adjfeedback/templates/feedback_card.html
 msgid "This feedback is submitted on an adjudicator but it looks like they have been since been removed from the debate. You should probably go to the Edit Database area and delete this feedback."
-msgstr ""
+msgstr "La retroalimentació ha estat entregada cap a un jutge, però sembla que aquest ha estat eliminat del debat en qüestió. Hauries d'anar a editar la base de dades i eliminar aquesta retroalimentació."
 
 #: adjfeedback/templates/feedback_card.html
 msgid "The score given in this piece of feedback."
-msgstr ""
+msgstr "La puntuació proporcionada en aquesta peça de retroalimentació."
 
 #: adjfeedback/templates/feedback_card.html
 #, python-format
 msgid "%(round)s %(score)s"
-msgstr ""
+msgstr "%(round)s %(score)s"
 
 #: adjfeedback/templates/feedback_card.html
 #, python-format
 msgid "On %(adjudicator)s"
-msgstr ""
+msgstr "A %(adjudicator)s"
 
 #: adjfeedback/templates/feedback_card.html
 #, python-format
 msgid "<span class=\"text-secondary small\">Received as %(as_type)s</span>"
-msgstr ""
+msgstr "<span class=\"text-secondary small\">Rebut com a %(as_type)s</span>"
 
 #: adjfeedback/templates/feedback_card.html
 #, python-format
 msgid "Base %(base)s"
-msgstr ""
+msgstr "Base %(base)s"
 
 #: adjfeedback/templates/feedback_card.html
 #, python-format
 msgid "From %(source)s <span class=\"text-secondary small\">(their %(relationship)s)</span>"
-msgstr ""
+msgstr "De %(source)s <span class=\"text-secondary small\">(el seu/a %(relationship)s)</span>"
 
 #: adjfeedback/templates/feedback_card.html
 #, python-format
 msgid "From %(source)s <span class=\"text-secondary small\">(%(relationship)s from %(side)s)</span>"
-msgstr ""
+msgstr "De %(source)s <span class=\"text-secondary small\">(%(relationship)s de %(side)s)</span>"
 
 #: adjfeedback/templates/feedback_card.html
 msgid "From unknown"
-msgstr ""
+msgstr "De desconegut"
 
 #: adjfeedback/templates/feedback_card.html
 #, python-format
@@ -643,56 +643,56 @@ msgstr ""
 
 #: adjfeedback/templates/feedback_card.html
 msgid "Unconfirmed feedback is not counted as having been submitted and does not affect this adjudicator's score."
-msgstr ""
+msgstr "La retroalimentació no confirmada no compta com a entregada i tampoc afecta a la puntuació del jutge."
 
 #: adjfeedback/templates/feedback_card.html
 msgid "Un-confirm"
-msgstr ""
+msgstr "Des-confirma"
 
 #: adjfeedback/templates/feedback_card.html
 msgid "Confirm"
-msgstr ""
+msgstr "Confirma"
 
 #: adjfeedback/templates/feedback_card.html
 msgid "Ignored feedback is counted as having been submitted, but does not affect this adjudicator's score."
-msgstr ""
+msgstr "La retroalimentació ignorada compta com a entregada, però no afecta la puntuació del jutge."
 
 #: adjfeedback/templates/feedback_card.html
 msgid "Un-ignore"
-msgstr ""
+msgstr "Des-ignora"
 
 #: adjfeedback/templates/feedback_card.html
 msgid "Ignore"
-msgstr ""
+msgstr "Ignora"
 
 #: adjfeedback/templates/feedback_cards_list.html
 msgid "No feedback has been submitted yet"
-msgstr ""
+msgstr "Cap retroalimentació ha estat presentada de moment"
 
 #: adjfeedback/templates/feedback_overview.html
 #, python-format
 msgid "<span id=\"c_breaking\">%(c_breaking)s</span> marked as breaking"
-msgstr ""
+msgstr "<span id=\"c_breaking\">%(c_breaking)s</span> seleccionat/s per passar el tall"
 
 #: adjfeedback/templates/feedback_overview.html
 #, python-format
 msgid "The current <a href=\"%(option_url)s\" class=\"alert-link\">feedback configuration</a> allows and expects only chairs to submit feedback (on their panellists and trainees)."
-msgstr ""
+msgstr "L'actual <a href=\"%(option_url)s\" class=\"alert-link\">configuració de retroalimentació </a> permet i espera que només els jutges principals enviïn retroalimentació (sobre els membres del seu panell i els aprenents)."
 
 #: adjfeedback/templates/feedback_overview.html
 #, python-format
 msgid "The current <a href=\"%(option_url)s\" class=\"alert-link\">feedback configuration</a> allows and expects both chairs and panellists to submit feedback on each other, and also chairs to submit feedback on trainees."
-msgstr ""
+msgstr "L'actual <a href=\"%(option_url)s\" class=\"alert-link\">configuració de retroalimentació </a> permet i espera que els jutges principals i els panelistes s'enviïn retroalimentació entre ells i els principals als aprenents."
 
 #: adjfeedback/templates/feedback_overview.html
 #, python-format
 msgid "The current <a href=\"%(option_url)s\" class=\"alert-link\">feedback configuration</a> allows and expects both panellists and trainees to submit feedback on chairs, and chairs to submit feedback on every other member of the panel (including trainees)."
-msgstr ""
+msgstr "L'actual <a href=\"%(option_url)s\" class=\"alert-link\">configuració de retroalimentació </a> permet i espera que tant els membres del panell com els aprenents enviïn retroalimentació sobre els jutges principals, i que els principals enviïn retroalimentació sobre cada altre membre del panell (incloent-hi els aprenents)."
 
 #: adjfeedback/templates/feedback_overview.html
 #, python-format
 msgid "The current <a href=\"%(option_url)s\" class=\"alert-link\">feedback configuration</a> allows and expects all adjudicators (including trainees) to submit feedback on every other member of the panel (including trainees)."
-msgstr ""
+msgstr "L'actual <a href=\"%(option_url)s\" class=\"alert-link\">configuració de retroalimentació </a> permet i espera que tots els jutges (incloent-hi els aprenents) enviïn retroalimentació sobre cada altre membre del panell (incloent-hi els aprenents)."
 
 #: adjfeedback/templates/feedback_overview.html
 #, python-format
