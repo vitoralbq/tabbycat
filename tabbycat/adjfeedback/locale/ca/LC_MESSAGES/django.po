@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-28 12:44-0400\n"
-"PO-Revision-Date: 2023-07-04 22:49\n"
+"PO-Revision-Date: 2024-01-19 09:52\n"
 "Last-Translator: \n"
 "Language-Team: Catalan\n"
 "Language: ca_ES\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: adjfeedback/admin.py
 msgid "Integer scales must have a minimum and maximum"
-msgstr ""
+msgstr "Les escales de nombres enters han de tenir un mínim i un màxim"
 
 #: adjfeedback/admin.py
 msgid "target"
@@ -27,11 +27,11 @@ msgstr "objectiu"
 
 #: adjfeedback/admin.py adjfeedback/models.py
 msgid "source adjudicator"
-msgstr ""
+msgstr "jutge emissor"
 
 #: adjfeedback/admin.py adjfeedback/models.py
 msgid "source team"
-msgstr ""
+msgstr "equip emissor"
 
 #: adjfeedback/admin.py
 msgid "Target"
@@ -43,7 +43,7 @@ msgstr "Font"
 
 #: adjfeedback/admin.py
 msgid "Feedback timestamp and version"
-msgstr ""
+msgstr "Marca de temps de la retroalimentació i versió"
 
 #: adjfeedback/admin.py
 #, python-format
@@ -54,40 +54,40 @@ msgstr "%(timestamp)s (versió %(version)s)"
 #, python-format
 msgid "1 feedback submission was marked as confirmed. Note that this may have caused other feedback submissions to be marked as unconfirmed."
 msgid_plural "%(count)d feedback submissions were marked as confirmed. Note that this may have caused other feedback submissions to be marked as unconfirmed."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Una retroalimentació ha estat marcada com a confirmada. Això pot haver causat que altres retroalimentacions enviades hagin estat marcades com a NO confirmades."
+msgstr[1] "%(count)d retroalimentacions han estat marcades com a confirmades. Això pot haver causat que altres retroalimentacions enviades hagin estat marcades com a NO confirmades."
 
 #: adjfeedback/admin.py
 #, python-format
 msgid "1 feedback submission was not marked as confirmed, probably because other feedback submissions that conflict with it were also marked as confirmed."
 msgid_plural "%(count)d feedback submissions were not marked as confirmed, probably because other feedback submissions that conflict with them were also marked as confirmed."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Una retroalimentació no ha estat marcada com a confirmada, probablement perquè una altra retroalimentació que entra en conflicte amb aquesta ha estat marcada com a confirmada."
+msgstr[1] "%(count)d retroalimentacions no han estat marcades com a confirmades, probablement perquè una altra retroalimentació que entra en conflicte amb aquestes ha estat marcada com a confirmada."
 
 #: adjfeedback/admin.py
 #, python-format
 msgid "1 feedback submission was marked as unconfirmed."
 msgid_plural "%(count)d feedback submissions were marked as unconfirmed."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Una retroalimentació ha estat marcada com a NO confirmada."
+msgstr[1] "%(count)d retroalimentacions han estat marcades com a NO confirmades."
 
 #: adjfeedback/admin.py
 #, python-format
 msgid "1 feedback submission is now ignored."
 msgid_plural "%(count)d feedback submissions are now ignored."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Una retroalimentació ara serà ignorada."
+msgstr[1] "%(count)d retroalimentacions ara seran ignorades."
 
 #: adjfeedback/admin.py
 #, python-format
 msgid "1 feedback submission is now recognized."
 msgid_plural "%(count)d feedback submissions are now recognized."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Una retroalimentació ara serà reconeguda."
+msgstr[1] "%(count)d retroalimentacions ara seran reconegudes."
 
 #: adjfeedback/apps.py
 msgid "Adjudicator Feedback"
-msgstr ""
+msgstr "Retroalimentació del jutge"
 
 #: adjfeedback/forms.py
 msgid "chair"
@@ -95,7 +95,7 @@ msgstr "principal"
 
 #: adjfeedback/forms.py
 msgid "solo"
-msgstr ""
+msgstr "únic"
 
 #: adjfeedback/forms.py
 msgid "panellist"
@@ -146,7 +146,7 @@ msgstr "-- Grup de Jutges --"
 
 #: adjfeedback/forms.py
 msgid "Adjudicator this feedback is about"
-msgstr ""
+msgstr "Jutge, aquesta retroalimentació és sobre"
 
 #: adjfeedback/forms.py
 #, python-format
@@ -166,27 +166,27 @@ msgstr "%(name)s (El panelista va donar retroalimentació oral)"
 #: adjfeedback/forms.py
 #, python-format
 msgid "This line (for %(adjudicator)s) didn't have a score"
-msgstr ""
+msgstr "Aquesta línia (per %(adjudicator)s) no té una puntuació"
 
 #: adjfeedback/forms.py
 #, python-format
 msgid "This line (for %(adjudicator)s) had too many columns"
-msgstr ""
+msgstr "Aquesta línia (per %(adjudicator)s) té massa columnes"
 
 #: adjfeedback/forms.py
 #, python-format
 msgid "There are several adjudicators called \"%(adjudicator)s\", so you can't use the bulk importer to update their score. Please do so in the Feedback Overview page instead."
-msgstr ""
+msgstr "Hi ha uns quants jutges anomenats \"%(adjudicator)s\", per això NO pots fer servir el bolcatge per actualitzar la seva nota. Si us plau, fes servir-ho a la pàgina de Visió General de Retroalimentacions."
 
 #: adjfeedback/forms.py
 #, python-format
 msgid "There is no adjudicator in this tournament with the name \"%(adjudicator)s\""
-msgstr ""
+msgstr "No existeix cap jutge en aquest torneig anomenat \"%(adjudicator)s\""
 
 #: adjfeedback/forms.py
 #, python-format
 msgid "The score for %(adjudicator)s, \"%(score)s\", isn't a number"
-msgstr ""
+msgstr "La puntuació per a %(adjudicator)s, \"%(score)s\", no és un número"
 
 #: adjfeedback/forms.py
 msgid "There were no scores to import."
@@ -198,7 +198,7 @@ msgstr "jutges"
 
 #: adjfeedback/models.py
 msgid "round"
-msgstr ""
+msgstr "ronda"
 
 #: adjfeedback/models.py
 msgid "score"
@@ -206,15 +206,15 @@ msgstr "puntuació"
 
 #: adjfeedback/models.py
 msgid "timestamp"
-msgstr ""
+msgstr "marca de temps"
 
 #: adjfeedback/models.py
 msgid "adjudicator base score history"
-msgstr ""
+msgstr "puntuació de l'examen de jutge"
 
 #: adjfeedback/models.py
 msgid "adjudicator base score histories"
-msgstr ""
+msgstr "puntuacions de l'examen de jutge"
 
 #: adjfeedback/models.py
 msgid "question"
@@ -270,11 +270,11 @@ msgstr ""
 
 #: adjfeedback/models.py
 msgid "checkbox"
-msgstr ""
+msgstr "casella de selecció"
 
 #: adjfeedback/models.py
 msgid "yes/no (dropdown)"
-msgstr ""
+msgstr "sí/no (desplegable)"
 
 #: adjfeedback/models.py
 msgid "integer (textbox)"
@@ -334,7 +334,7 @@ msgstr ""
 
 #: adjfeedback/models.py
 msgid "from adjudicator"
-msgstr ""
+msgstr "d'un jutge"
 
 #: adjfeedback/models.py
 msgid "Adjudicators should be asked this question (about other adjudicators)"
@@ -342,11 +342,11 @@ msgstr ""
 
 #: adjfeedback/models.py
 msgid "from team"
-msgstr ""
+msgstr "d'un equip"
 
 #: adjfeedback/models.py
 msgid "Teams should be asked this question"
-msgstr ""
+msgstr "Es demanarà als equips que responguin aquesta pregunta"
 
 #: adjfeedback/models.py
 msgid "answer type"
@@ -386,11 +386,11 @@ msgstr ""
 
 #: adjfeedback/models.py
 msgid "adjudicator feedback question"
-msgstr ""
+msgstr "pregunta de retroalimentació del jutge"
 
 #: adjfeedback/models.py
 msgid "adjudicator feedback questions"
-msgstr ""
+msgstr "preguntes de retroalimentació del jutge"
 
 #: adjfeedback/models.py adjfeedback/views.py
 msgid "ignored"
@@ -533,19 +533,19 @@ msgstr ""
 
 #: adjfeedback/templates/feedback_base.html
 msgid "Overview"
-msgstr ""
+msgstr "Visió general"
 
 #: adjfeedback/templates/feedback_base.html
 msgid "Latest"
-msgstr ""
+msgstr "Últimes"
 
 #: adjfeedback/templates/feedback_base.html
 msgid "Unsubmitted"
-msgstr ""
+msgstr "No enviats"
 
 #: adjfeedback/templates/feedback_base.html
 msgid "Important"
-msgstr ""
+msgstr "Important"
 
 #: adjfeedback/templates/feedback_base.html
 msgid "Comments"
@@ -553,30 +553,30 @@ msgstr "Comentaris"
 
 #: adjfeedback/templates/feedback_base.html
 msgid "By Source"
-msgstr ""
+msgstr "Per emissor"
 
 #: adjfeedback/templates/feedback_base.html
 msgid "By Target"
-msgstr ""
+msgstr "Per receptor"
 
 #: adjfeedback/templates/feedback_base.html
 msgid "Bulk Update Scores"
-msgstr ""
+msgstr "Bolca l'actualització de puntuacions"
 
 #: adjfeedback/templates/feedback_by_source.html
 #, python-format
 msgid "Feedback %(source_type)s %(source_name)s"
-msgstr ""
+msgstr "Retroalimentació %(source_type)s %(source_name)s"
 
 #: adjfeedback/templates/feedback_by_source.html
 #, python-format
 msgid "%(source_name)s hasn't submitted any feedback yet."
-msgstr ""
+msgstr "%(source_name)s no ha presentat cap retroalimentació per ara."
 
 #: adjfeedback/templates/feedback_by_source.html
 #, python-format
 msgid "%(source_name)s hasn't received any feedback yet."
-msgstr ""
+msgstr "%(source_name)s no ha rebut cap retroalimentació per ara."
 
 #: adjfeedback/templates/feedback_card.html
 msgid "This is most likely because the team or adjudicator who submitted this feedback has submitted several times on the same person; or because a team has submitted feedback on multiple panellists (rather than just the orallist)."
