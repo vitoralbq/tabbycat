@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-28 12:44-0400\n"
-"PO-Revision-Date: 2024-01-19 09:52\n"
+"PO-Revision-Date: 2024-01-19 12:02\n"
 "Last-Translator: \n"
 "Language-Team: Catalan\n"
 "Language: ca_ES\n"
@@ -422,11 +422,11 @@ msgstr ""
 
 #: adjfeedback/models.py
 msgid "Adjudicator did not see this debate."
-msgstr ""
+msgstr "El jutge no ha presenciat aquest debat."
 
 #: adjfeedback/tables.py
 msgid "Whether the adj is marked as breaking (click to mark)"
-msgstr ""
+msgstr "Assignació al tall (clica per assignar)"
 
 #: adjfeedback/tables.py
 msgid "N/A"
@@ -434,71 +434,71 @@ msgstr "N/D"
 
 #: adjfeedback/tables.py
 msgid "Current weighted score"
-msgstr ""
+msgstr "Nota ponderada actual"
 
 #: adjfeedback/tables.py
 msgid "This adjudicator's current rating."
-msgstr ""
+msgstr "Nota actual del jutge."
 
 #: adjfeedback/tables.py
 msgid "Base score result"
-msgstr ""
+msgstr "Nota base"
 
 #: adjfeedback/tables.py
 msgid "Click to edit base score"
-msgstr ""
+msgstr "Clica per editar la nota base"
 
 #: adjfeedback/tables.py
 msgid "Assigned base score"
-msgstr ""
+msgstr "Nota base assignada"
 
 #: adjfeedback/tables.py
 msgid "The current difference between an adjudicator's base score and current score"
-msgstr ""
+msgstr "Diferència entre la nota base i la nota actual del jutge"
 
 #: adjfeedback/tables.py
 msgid "The difference between this adjudicator's base score and current score"
-msgstr ""
+msgstr "Diferència entre la nota base i la nota actual d'aquest jutge"
 
 #: adjfeedback/tables.py
 msgid "The standard deviation of this adjudicator's current scores; with larger numbers meaning less consistent feedback scores."
-msgstr ""
+msgstr "La desviació estàndard de les puntuacions del jutge; com més gran és la xifra, menys consistència en les notes de retroalimentació."
 
 #: adjfeedback/tables.py
 msgid "The standard deviation of this adjudicator's current scores"
-msgstr ""
+msgstr "La desviació estàndard d'aquest jutge amb les puntuacions actuals"
 
 #: adjfeedback/tables.py
 msgid "Feedback Per Round"
-msgstr ""
+msgstr "Retroalimentació per ronda"
 
 #: adjfeedback/tables.py
 msgid "Hover over the data points to show the average score received in that round"
-msgstr ""
+msgstr "Passa el ratolí sobre els punts de dades per mostrar la puntuació mitjana rebuda en aquella ronda"
 
 #: adjfeedback/tables.py
 #, python-format
 msgid "View %(count)s<br>feedback"
 msgid_plural "View %(count)s<br>feedbacks"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Veure %(count)s<br> retroalimentació"
+msgstr[1] "Veure %(count)s<br>retroalimentacions"
 
 #: adjfeedback/tables.py
 msgid "Unsubmitted feedback ballots"
-msgstr ""
+msgstr "Retroalimentacions no entregades"
 
 #: adjfeedback/tables.py
 msgid "View Missing Feedback"
-msgstr ""
+msgstr "Veure retroalimentacions pendents"
 
 #: adjfeedback/templates/add_feedback.html
 msgid "Who is the feedback from?"
-msgstr ""
+msgstr "De qui prové la retroalimentació?"
 
 #: adjfeedback/templates/add_feedback.html
 #: adjfeedback/templates/enter_feedback.html
 msgid "Enter Feedback"
-msgstr ""
+msgstr "Entrar retroalimentació"
 
 #: adjfeedback/templates/enter_feedback.html
 #: adjfeedback/templates/public_add_feedback.html
@@ -509,11 +509,11 @@ msgstr "Afegeix retroalimentació de %(name)s"
 #: adjfeedback/templates/enter_feedback.html
 #: adjfeedback/templates/feedback_base.html
 msgid "Add Feedback"
-msgstr ""
+msgstr "Afegir retroalimentació"
 
 #: adjfeedback/templates/enter_feedback.html
 msgid "There are no feedback options because no rounds have been released to the public yet. Check back when they have!"
-msgstr ""
+msgstr "No hi ha opcions de retroalimentació perquè encara no s'ha alliberat cap ronda al públic. Torna quan s'hagi alliberat!"
 
 #: adjfeedback/templates/enter_feedback.html
 msgid "This tournament expects you to submit feedback <strong>only on the adjudicator who delivered the adjudication</strong>. Do not submit feedback on other adjudicators."
@@ -521,15 +521,15 @@ msgstr "Aquest torneig espera que envieu retroalimentació <strong>només al jut
 
 #: adjfeedback/templates/enter_feedback.html
 msgid "This tournament expects you to submit feedback on all of the adjudicators on the panel (including trainees)."
-msgstr ""
+msgstr "Aquest torneig espera que enviïs retroalimentació a tots els jutges del panell (inclosos aprenents)."
 
 #: adjfeedback/templates/enter_feedback.html
 msgid "There are some problems with this feedback submission. Please review and correct them."
-msgstr ""
+msgstr "Hi ha problemes per entregar aquesta retroalimentació. Si us plau, revisa-la i corregeix-la."
 
 #: adjfeedback/templates/enter_feedback.html
 msgid "When submitting this form your IP address will be stored for logging purposes."
-msgstr ""
+msgstr "Entregant aquest formulari, la teva adreça IP serà enregistrada per qüestions d'identificació."
 
 #: adjfeedback/templates/feedback_base.html
 msgid "Overview"
@@ -698,20 +698,20 @@ msgstr ""
 #, python-format
 msgid "There is <strong>%(nadjs_outside_range)s adjudicator</strong> with a score <strong>outside the permitted range</strong> of adjudicator scores, which is currently set as %(min_score)s to %(max_score)s. This can cause adjudicator auto-allocation to behave in unexpected ways. If you'd like to use a wider score range, you can configure this in <a href=\"%(feedback_settings_url)s\" class=\"alert-link\"> feedback settings</a>."
 msgid_plural "There are <strong>%(nadjs_outside_range)s adjudicators</strong> with scores <strong>outside the permitted range</strong> of adjudicator scores, which is currently set as %(min_score)s to %(max_score)s. This can cause adjudicator auto-allocation to behave in unexpected ways. If you'd like to use a wider score range, you can configure this in <a href=\"%(feedback_settings_url)s\" class=\"alert-link\"> feedback settings</a>."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Hi ha <strong>%(nadjs_outside_range)s jutge </strong> amb una puntuació <strong>fora del rang permès</strong> de les puntuacions de jutge, que han d'estar en el rang d'entre %(min_score)s i %(max_score)s punts. Això pot causar que la autoubicació dels jutges funcioni de maneres inesperades. Si vols ampliar el marge de puntuació, pots configurar-ho a <a href=\"%(feedback_settings_url)s\" class=\"alert-link\"> la configuració de les retroalimentacions</a>."
+msgstr[1] "Hi ha <strong>%(nadjs_outside_range)s jutges </strong> amb una puntuació <strong>fora del rang permès</strong> de les puntuacions de jutge, que han d'estar en el rang d'entre %(min_score)s i %(max_score)s punts. Això pot causar que la autoubicació dels jutges funcioni de maneres inesperades. Si vols ampliar el marge de puntuació, pots configurar-ho a <a href=\"%(feedback_settings_url)s\" class=\"alert-link\"> la configuració de les retroalimentacions</a>."
 
 #: adjfeedback/templates/overview_breakdowns.html
 #, python-format
 msgid "%(count)s adjudicator currently has a score equal to or above %(min)s and below %(max)s. That is %(percent)s%% of the adjudicator pool."
 msgid_plural "%(count)s adjudicators currently have a score equal to or above %(min)s and below %(max)s. That is %(percent)s%% of the adjudicator pool."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(count)s jutge actualment té una puntuació igual o superior a %(min)s i per sota de %(max)s. Això és el %(percent)s%% del conjunt de jutges."
+msgstr[1] "%(count)s jutges actualment tenen una puntuació igual o superior a %(min)s i per sota de %(max)s. Això és el %(percent)s%% del conjunt de jutges."
 
 #: adjfeedback/templates/overview_breakdowns.html
 #, python-format
 msgid "Score Distributions (range is %(min_score)s–%(max_score)s)"
-msgstr ""
+msgstr "Distribució de puntuacions (el rang és d'entre %(min_score)s–%(max_score)s)"
 
 #: adjfeedback/templates/overview_breakdowns.html
 msgid "Base"
@@ -719,109 +719,109 @@ msgstr "Base"
 
 #: adjfeedback/templates/overview_breakdowns.html
 msgid "Feedback"
-msgstr ""
+msgstr "Retroalimentació"
 
 #: adjfeedback/templates/overview_breakdowns.html
 #, python-format
 msgid "The proportion of an adjudicator's score determined by feedback vs the test is set on a per-round basis. Click this link and edit the 'Feedback weight' field to modify this ratio for %(round)s."
-msgstr ""
+msgstr "El pes d'una nota de jutge de les retroalimentacions comparat amb el de la nota base es determina cada ronda. Clica en aquest enllaç i edita el pes de les retroalimentacions'Feedback weight' per modificar la ponderació per la ronda %(round)s."
 
 #: adjfeedback/templates/overview_breakdowns.html
 msgid "Score Ratio"
-msgstr ""
+msgstr "Ponderacions de la nota"
 
 #: adjfeedback/templates/overview_breakdowns.html
 #, python-format
 msgid "There is %(c_chairs)s debate per round, so there needs to be %(c_chairs)s chair."
 msgid_plural "There are %(c_chairs)s debates per round, so there need to be %(c_chairs)s chairs."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Hi ha %(c_chairs)s debat per ronda, aleshores necessitem %(c_chairs)s jutge principal."
+msgstr[1] "Hi ha %(c_chairs)s debats per ronda, aleshores necessitem %(c_chairs)s jutges principals."
 
 #: adjfeedback/templates/overview_breakdowns.html
 #, python-format
 msgid "There is %(c_debates)s debate per round, but only %(c_chairs)s above the minimum voting score."
 msgid_plural "There are %(c_debates)s debates per round, but only %(c_chairs)s above the minimum voting score."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Hi ha %(c_debates)s debat per ronda, però només %(c_chairs)s per sobre la puntuació mínima per votar."
+msgstr[1] "Hi ha %(c_debates)s debats per ronda, però només %(c_chairs)s per sobre la puntuació mínima per votar."
 
 #: adjfeedback/templates/overview_breakdowns.html
 #, python-format
 msgid "%(c_chairs)s chair"
 msgid_plural "%(c_chairs)s chairs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(c_chairs)s principal"
+msgstr[1] "%(c_chairs)s principals"
 
 #: adjfeedback/templates/overview_breakdowns.html
 msgid "All adjudicators with a score high enough to vote, but who aren't allocated as chairs, are allocated as panellists by the auto-allocator."
-msgstr ""
+msgstr "Tots els jutges que tenen una nota suficient per votar però no han sigut assignats com a principals, seran assignats com a panelistes per l'autoubicador."
 
 #: adjfeedback/templates/overview_breakdowns.html
 #, python-format
 msgid "%(c_panellists)s panellist"
 msgid_plural "%(c_panellists)s panellists"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(c_panellists)s panelista"
+msgstr[1] "%(c_panellists)s panelistes"
 
 #: adjfeedback/templates/overview_breakdowns.html
 #, python-format
 msgid "Adjudicators are allocated as trainees by the auto-allocator if their score is less than the 'minimum voting score' (currently %(min_voting)s) set in this tournament's Draw Rules configuration."
-msgstr ""
+msgstr "Els jutges seran assignats com a jutges aprenents per l'autoubicador si la seva puntuació està per sota del mínim per votar (actualment és %(min_voting)s) fixada des de la Configuració, a les Normes d'emparellaments."
 
 #: adjfeedback/templates/overview_breakdowns.html
 #, python-format
 msgid "%(c_trainees)s trainee"
 msgid_plural "%(c_trainees)s trainees"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(c_trainees)s jutge aprenent"
+msgstr[1] "%(c_trainees)s jutges aprenents"
 
 #: adjfeedback/templates/overview_breakdowns.html
 #, python-format
 msgid "Auto-Allocate Distributions (%(min_voting_score)s+ to vote)"
-msgstr ""
+msgstr "Distribucions automàtiques (Més d'un %(min_voting_score)s per votar)"
 
 #: adjfeedback/templates/overview_modals.html
 msgid "Change Base Score"
-msgstr ""
+msgstr "Canvia la nota base"
 
 #: adjfeedback/templates/overview_modals.html
 #, python-format
 msgid "The score range for adjudicators is between <strong>%(pref.adj_min_score)s</strong> and <strong>%(pref.adj_max_score)s</strong>. Decimals are permitted. This can be configured in <a href=\"%(feedback_options)s\">Feedback settings</a>."
-msgstr ""
+msgstr "El rang de notes pels jutges és d'entre <strong>%(pref.adj_min_score)s</strong> i <strong>%(pref.adj_max_score)s</strong>. Es permeten decimals. Això ho pots ajustar a <a href=\"%(feedback_options)s\">la configuració de Retroalimentació</a>."
 
 #: adjfeedback/templates/overview_modals.html
 #, python-format
 msgid "The minimum score require to be allocated as a panellist or chair (when using the auto-allocator) is <strong>%(min_voting_score)s</strong>. This can be configured in <a href=\"%(draw_rules)s\">Draw settings</a>."
-msgstr ""
+msgstr "La puntuació mínima per ser assignat com a jutge principal o panelista (amb l'autoubicador) és de <strong>%(min_voting_score)s</strong>. Això pot ser ajustat a <a href=\"%(draw_rules)s\">la configuració d'emparellaments</a>."
 
 #: adjfeedback/templates/overview_modals.html
 msgid "Base score"
-msgstr ""
+msgstr "Nota base"
 
 #: adjfeedback/templates/overview_modals.html
 msgid "Save Base Score"
-msgstr ""
+msgstr "Guarda la nota base"
 
 #: adjfeedback/templates/public_add_feedback.html
 msgid "Who are you?"
-msgstr ""
+msgstr "Qui ets?"
 
 #: adjfeedback/templates/public_add_feedback.html
 msgid "click your name or your team on this list"
-msgstr ""
+msgstr "clica el teu nom o el teu equip a la llista"
 
 #: adjfeedback/templates/update_adjudicator_scores.html
 msgctxt "page title"
 msgid "Update Adjudicator Scores"
-msgstr ""
+msgstr "Actualitza les notes de jutge"
 
 #: adjfeedback/templates/update_adjudicator_scores.html
 #, python-format
 msgid "There aren't any adjudicators in this tournament, so you can't update any scores. You might want to <a href=\"%(import_url)s\" class=\"alert-link\">import some adjudicators</a> first."
-msgstr ""
+msgstr "No hi ha jutges en aquest torneig, i per això no pots actualitzar cap nota. Potser hauries de<a href=\"%(import_url)s\" class=\"alert-link\">importar alguns jutges</a> primer."
 
 #: adjfeedback/templates/update_adjudicator_scores.html
 msgid "Paste a list of adjudicators' names and their new scores, in the format: <code>adjudicator,score</code>. For example:"
-msgstr ""
+msgstr "Enganxa una llista dels noms dels jutges i les seves noves puntuacions, en el format: <code>jutge,puntuació</code>. Per exemple:"
 
 #: adjfeedback/templates/update_adjudicator_scores.html
 msgid "The adjudicators' names must match their names in the tab system exactly."
