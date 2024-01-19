@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2024-01-19 16:33\n"
+"PO-Revision-Date: 2024-01-19 18:04\n"
 "Last-Translator: \n"
 "Language-Team: Catalan\n"
 "Language: ca_ES\n"
@@ -217,7 +217,7 @@ msgstr "Oposició"
 
 #: motions/templates/motion_statistics_bp_prelim.html
 msgid "Average Points per bench"
-msgstr ""
+msgstr "Mitjana de punts per bancada"
 
 #: motions/templates/motion_statistics_bp_prelim.html
 msgid "Opening"
@@ -229,44 +229,44 @@ msgstr "Baixa"
 
 #: motions/templates/motion_statistics_bp_prelim.html
 msgid "Average Points per half"
-msgstr ""
+msgstr "Mitjana de punts per costat"
 
 #: motions/templates/motion_statistics_bp_prelim.html
 #, python-format
 msgid "average points per position (%(ndebates)s debate)"
 msgid_plural "average points per position (%(ndebates)s debates)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "mitjana de punts per posició (%(ndebates)s debat)"
+msgstr[1] "mitjana de punts per posició (%(ndebates)s debats)"
 
 #: motions/templates/motion_statistics_bp_prelim.html
 #, python-format
 msgid "%(count)s result for %(side)s (%(percentage)s%%) were for %(points)s points"
 msgid_plural "%(count)s results for %(side)s (%(percentage)s%%) were for %(points)s points"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(count)s resultat per %(side)s (%(percentage)s%%) han estat de %(points)s punts"
+msgstr[1] "%(count)s resultats per %(side)s (%(percentage)s%%) han estat de %(points)s punts"
 
 #: motions/templates/motion_statistics_bp_prelim.html
 #, python-format
 msgid "%(side)s results"
-msgstr ""
+msgstr "%(side)s resultats"
 
 #: motions/templates/motion_statistics_twoteam.html
 #, python-format
 msgid "%(count)s %(side)s win"
 msgid_plural "%(count)s %(side)s wins"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(count)s %(side)s guanya"
+msgstr[1] "%(count)s %(side)s guanyen"
 
 #: motions/templates/motion_statistics_twoteam.html
 msgid "No teams debated this motion"
-msgstr ""
+msgstr "No hi ha equips que debatin aquesta moció"
 
 #: motions/templates/motion_statistics_twoteam.html
 #, python-format
 msgid "%(count)s %(side)s veto"
 msgid_plural "%(count)s %(side)s vetoes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(count)s %(side)s veto"
+msgstr[1] "%(count)s %(side)s vetos"
 
 #: motions/templates/motion_statistics_twoteam.html
 msgid "No teams vetoed this motion"
@@ -284,27 +284,27 @@ msgstr "Mostrar aparellaments"
 
 #: motions/templates/motions_edit.html
 msgid "This will replace all existing motions for this round. The motions themselves will still be in the database."
-msgstr ""
+msgstr "Això substituirà totes les mocions existents per a aquesta ronda. Les mocions en si mateixes continuaran estant a la base de dades."
 
 #: motions/templates/motions_edit.html
 msgid "Reuse Motions from Last Round"
-msgstr ""
+msgstr "Reutilitzar les mocions de la darrera ronda"
 
 #: motions/templates/motions_edit.html
 msgid "Use Existing Motions"
-msgstr ""
+msgstr "Utilitza les mocions existents"
 
 #: motions/templates/motions_edit.html
 msgid "The motion for this round is currently publicly displayed because it was released. Any changes made here will be publicly visible as well as soon as they are saved."
 msgid_plural "The motions for this round are currently publicly displayed because they were released. Any changes made here will be publicly visible as well as soon as they are saved."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "La moció per a aquesta ronda està actualment visible públicament perquè ha estat publicada. Qualsevol canvi realitzat aquí serà visible públicament tan aviat com es guardi."
+msgstr[1] "Les mocions per a aquesta ronda són visibles públicament perquè han estat publicades. Qualsevol canvi realitzat aquí serà visible públicament tan aviat com es guardi."
 
 #: motions/templates/motions_edit.html
 msgid "Save Motion"
 msgid_plural "Save Motions"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Guarda la moció"
+msgstr[1] "Guarda les mocions"
 
 #: motions/templates/motions_info.html
 msgid "Info Slide"
@@ -312,44 +312,44 @@ msgstr "Diapositiva d'informació"
 
 #: motions/templates/public_motions.html
 msgid "There are no motions available for this round."
-msgstr ""
+msgstr "No hi ha mocions disponibles en aquesta ronda."
 
 #: motions/templates/public_motions.html
 msgid "The motions for this round have not been released."
-msgstr ""
+msgstr "Les mocions per aquesta ronda no han estat publicades."
 
 #: motions/templates/public_motions.html
 msgid "The motion for this round has not been released."
-msgstr ""
+msgstr "La moció per aquesta ronda no ha estat publicada."
 
 #: motions/templates/show.html
 #, python-format
 msgid "Motion for %(round)s"
 msgid_plural "Motions for %(round)s"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Moció per %(round)s"
+msgstr[1] "Mocions per %(round)s"
 
 #: motions/templates/show.html
 #, python-format
 msgid "Reveal Info Slide for %(round)s"
 msgid_plural "Reveal Info Slides for %(round)s"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Revela la diapositiva d'informació per %(round)s"
+msgstr[1] "Revela les diapositives d'informació per %(round)s"
 
 #: motions/templates/show.html
 #, python-format
 msgid "Reveal Motion for %(round)s"
 msgid_plural "Reveal Motions for %(round)s"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Revela la moció per %(round)s"
+msgstr[1] "Revela les mocions per %(round)s"
 
 #: motions/templates/show.html
 msgid "There are no motions for this round entered into Tabbycat."
-msgstr ""
+msgstr "No hi ha mocions introduïdes per a aquesta ronda a Tabbycat."
 
 #: motions/utils.py
 msgid "Not all latest ballots list the same motion, so could not be merged."
-msgstr ""
+msgstr "No totes les taules de resultats més recents llisten la mateixa moció, per la qual cosa no es podrien fusionar."
 
 #: motions/utils.py
 msgid "Motion vetos are inconsistent, so could not be merged."
@@ -357,13 +357,13 @@ msgstr ""
 
 #: motions/views.py
 msgid "The motion has been saved."
-msgstr ""
+msgstr "La moció ha estat guardada."
 
 #: motions/views.py
 #, python-format
 msgid "%(count)d motion has been saved."
 msgid_plural "%(count)d motions have been saved."
-msgstr[0] ""
+msgstr[0] "%(count)d mocions han estat guardades."
 msgstr[1] ""
 
 #: motions/views.py
