@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-28 12:44-0400\n"
-"PO-Revision-Date: 2024-01-19 00:38\n"
+"PO-Revision-Date: 2024-01-19 09:52\n"
 "Last-Translator: \n"
 "Language-Team: Catalan\n"
 "Language: ca_ES\n"
@@ -26,14 +26,14 @@ msgstr "No hi ha jutges disponibles. Assegura't que hi ha jutges marcats com a d
 msgid "%(count)s score is larger than the maximum permitted adjudicator score (%(score).1f)."
 msgid_plural "%(count)s scores are larger than the maximum permitted adjudicator score (%(score).1f)."
 msgstr[0] "%(count)s punts superen el màxim permès per puntuar a un jutge (%(score).1f)."
-msgstr[1] ""
+msgstr[1] "%(count)s punts superen el màxim permès per puntuar a un jutge (%(score).1f)."
 
 #: adjallocation/allocators/hungarian.py
 #, python-format
 msgid "%(count)s score is smaller than the minimum permitted adjudicator score (%(score).1f)."
 msgid_plural "%(count)s scores are smaller than the minimum permitted adjudicator score (%(score).1f)."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(count)s punts no arriben al mínim permès per puntuar a un jutge (%(score).1f)."
+msgstr[1] "%(count)s punts no arriben al mínim permès per puntuar a un jutge (%(score).1f)."
 
 #: adjallocation/allocators/hungarian.py
 msgid "There are no adjudicators eligible to be a chair or panellist. Try changing the \"Minimum feedback score required to be allocated as chair or panellist\" setting to something lower than at least some adjudicators' current scores, and try again."
@@ -122,11 +122,11 @@ msgstr "Els panells de jutges han estat autoprioritzats satisfactòriament."
 
 #: adjallocation/consumers.py
 msgid "Since this is the first round, the preformed panels aren't annotated with brackets and liveness."
-msgstr ""
+msgstr "Com que aquesta és la primera ronda, els panells prefabricats no poden ser generats en grups i vivacitat."
 
 #: adjallocation/consumers.py
 msgid "The previous round's draw doesn't exist, so preformed panels can't be annotated with brackets and liveness."
-msgstr ""
+msgstr "Els emparellaments de la ronda anterior no existeixen, i per això els panells prefabricats no poden ser generats en grups i vivacitat."
 
 #: adjallocation/consumers.py
 msgid "Succesfully created new preformed panels for this round."
@@ -238,7 +238,7 @@ msgstr "grup superior"
 
 #: adjallocation/models.py
 msgid "Estimate of the highest bracket for which this panel might be"
-msgstr ""
+msgstr "Estimació del grup superior en què aquests jutges podrien estar"
 
 #: adjallocation/models.py
 msgid "room rank"
@@ -246,15 +246,15 @@ msgstr "rang de sala"
 
 #: adjallocation/models.py
 msgid "Sequential number of panel, not used in any algorithms"
-msgstr ""
+msgstr "Número seqüencial de panell, no utilitzat en cap algoritme"
 
 #: adjallocation/models.py
 msgid "liveness"
-msgstr ""
+msgstr "vivacitat"
 
 #: adjallocation/models.py
 msgid "Number of categories this room is expected to be live for"
-msgstr ""
+msgstr "Nombre de categories en què aquesta sala encara pot competir"
 
 #: adjallocation/models.py
 msgid "preformed panel"
