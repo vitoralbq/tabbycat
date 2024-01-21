@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-07-04 21:53\n"
+"PO-Revision-Date: 2024-01-21 17:38\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Bengali\n"
 "Language: bn_BD\n"
@@ -817,7 +817,7 @@ msgstr[1] ""
 
 #: results/templates/public_enter_results.html
 msgid "When submitting this form your IP address will be stored for logging purposes."
-msgstr ""
+msgstr "এই ফর্মটি জমা দেওয়ার সময় আপনার আইপি ঠিকানাটি লগিংয়ের উদ্দেশ্যে সংরক্ষণ করা হবে।"
 
 #: results/templates/public_enter_results_error.html
 #, python-format
