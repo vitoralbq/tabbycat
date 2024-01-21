@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2024-01-21 16:35\n"
+"PO-Revision-Date: 2024-01-21 17:38\n"
 "Last-Translator: \n"
 "Language-Team: Bengali\n"
 "Language: bn_BD\n"
@@ -509,7 +509,7 @@ msgstr ""
 
 #: templates/nav/admin_nav.html
 msgid "Overview"
-msgstr ""
+msgstr "সংক্ষিপ্ত বিবরণ"
 
 #: templates/nav/admin_nav.html
 msgid "Setup"
@@ -562,11 +562,11 @@ msgstr "প্রতিক্রিয়া"
 
 #: templates/nav/admin_nav.html
 msgid "Latest"
-msgstr ""
+msgstr "সর্বশেষ:"
 
 #: templates/nav/admin_nav.html
 msgid "Important"
-msgstr ""
+msgstr "গুরুত্বপূর্ণ"
 
 #: templates/nav/admin_nav.html
 msgid "Comments"
@@ -582,11 +582,11 @@ msgstr ""
 
 #: templates/nav/admin_nav.html
 msgid "Unsubmitted"
-msgstr ""
+msgstr "জমাকৃত নয়"
 
 #: templates/nav/admin_nav.html
 msgid "Add Feedback"
-msgstr ""
+msgstr "প্রতিক্রিয়া যোগ করুন"
 
 #: templates/nav/admin_nav.html
 msgid "Bulk Update"
@@ -661,7 +661,7 @@ msgstr ""
 
 #: templates/nav/assistant_nav.html templates/nav/public_nav.html
 msgid "Enter Feedback"
-msgstr ""
+msgstr "প্রতিক্রিয়া লিখুন"
 
 #: templates/nav/assistant_nav.html
 msgid "Participants List"
@@ -742,7 +742,7 @@ msgstr "ব্রেক"
 
 #: templates/nav/public_nav.html
 msgid "Feedback Progress"
-msgstr ""
+msgstr "প্রতিক্রিয়া অগ্রগতি"
 
 #: templates/nav/public_nav.html
 msgid "Enter Ballot"
