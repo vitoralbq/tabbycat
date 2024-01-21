@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-07-04 21:53\n"
+"PO-Revision-Date: 2024-01-21 16:35\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Bengali\n"
 "Language: bn_BD\n"
@@ -20,40 +20,40 @@ msgstr ""
 
 #: tournaments/apps.py
 msgid "Tournaments"
-msgstr ""
+msgstr "প্রতিযোগিতাসমূহ"
 
 #: tournaments/forms.py
 msgid "Number of preliminary rounds"
-msgstr ""
+msgstr "প্রাথমিক রাউন্ডসমূহের নাম্বার"
 
 #: tournaments/forms.py
 msgid "Number of teams in the open break"
-msgstr ""
+msgstr "ওপেন ব্রেক এ দলের সংখ্যা"
 
 #: tournaments/forms.py
 msgid "Leave blank if there are no break rounds."
-msgstr ""
+msgstr "কোনো ব্রেক রাউন্ড না থাকলে ফাঁকা ছেড়ে দিন."
 
 #: tournaments/forms.py
 msgid "Did you agree with their decision?"
-msgstr ""
+msgstr "আপনি কি তাদের সিদ্ধান্তের সাথে একমত?"
 
 #: tournaments/forms.py
 msgid "Agree?"
-msgstr ""
+msgstr "একমত?"
 
 #: tournaments/forms.py
 msgid "Comments"
-msgstr ""
+msgstr "মন্তব্য"
 
 #. Translators: This is the name given to the 'Open Break'.
 #: tournaments/forms.py
 msgid "Open"
-msgstr ""
+msgstr "ওপেন"
 
 #: tournaments/forms.py
 msgid "Format Configuration"
-msgstr ""
+msgstr "ফরমেট কনফিগারেশন"
 
 #: tournaments/forms.py
 msgid "Apply a standard set of settings to match a common debate format"
@@ -255,7 +255,7 @@ msgstr ""
 
 #: tournaments/models.py
 msgid "stage"
-msgstr ""
+msgstr "স্তর"
 
 #: tournaments/models.py
 msgid "Preliminary = inrounds, elimination = outrounds"
@@ -271,7 +271,7 @@ msgstr ""
 
 #: tournaments/models.py
 msgid "break category"
-msgstr ""
+msgstr "ব্রেক বিভাগ"
 
 #: tournaments/models.py
 msgid "If elimination round, which break category"
@@ -297,11 +297,11 @@ msgstr ""
 #. Translators: A silent round is a round for which results are not disclosed once the round is over.
 #: tournaments/models.py
 msgid "silent"
-msgstr ""
+msgstr "নীরব"
 
 #: tournaments/models.py
 msgid "If marked silent, information about this round (such as its results) will not be shown publicly."
-msgstr ""
+msgstr "নীরব চিহ্নিত হলে, এই রাউন্ড সম্পর্কে তথ্য (যেমন এর ফলাফল) সর্বজনীনভাবে দেখানো হবে না।"
 
 #: tournaments/models.py
 msgid "motions released"
