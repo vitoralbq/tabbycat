@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2024-05-11 05:07\n"
+"PO-Revision-Date: 2024-05-11 06:13\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -833,7 +833,7 @@ msgstr ""
 
 #: options/preferences.py options/templates/preferences_index.html
 msgid "Data Entry"
-msgstr "Nhập Liệu"
+msgstr "Nhập Dữ Liệu"
 
 #: options/preferences.py
 msgid "Whether adjudicators can submit ballots themselves, and how they do so"
@@ -1225,7 +1225,7 @@ msgstr ""
 
 #: options/preferences.py options/templates/preferences_index.html
 msgid "Notifications"
-msgstr ""
+msgstr "Thông Báo"
 
 #: options/preferences.py
 msgid "The name of the organizer tasked with managing emails (in case of replies)"
@@ -1537,7 +1537,7 @@ msgstr ""
 
 #: options/templates/preferences_index.html
 msgid "Presets"
-msgstr ""
+msgstr "Cài đặt sẵn"
 
 #: options/templates/preferences_index.html
 msgid "These modify common settings for basic rules; double check our <a href=\"https://tabbycat.readthedocs.io/\" target=\"_blank\">documentation</a> to ensure they are correct for your tournament. Each links will display what settings it changes before applying them."
