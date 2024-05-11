@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-08-11 14:43\n"
+"PO-Revision-Date: 2024-05-11 05:07\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -721,7 +721,7 @@ msgstr ""
 
 #: options/preferences.py options/templates/preferences_index.html
 msgid "Tab Release"
-msgstr ""
+msgstr "Công bố Tab"
 
 #: options/preferences.py
 msgid "Enables public display of the team tab. Intended for use after the tournament."
@@ -833,7 +833,7 @@ msgstr ""
 
 #: options/preferences.py options/templates/preferences_index.html
 msgid "Data Entry"
-msgstr ""
+msgstr "Nhập Liệu"
 
 #: options/preferences.py
 msgid "Whether adjudicators can submit ballots themselves, and how they do so"
@@ -1497,11 +1497,11 @@ msgstr ""
 
 #: options/templates/preferences_index.html
 msgid "When to release a public tab is made visible and what data it shows"
-msgstr ""
+msgstr "Được dùng khi muốn công bố Tab và những mục sẽ được công bố"
 
 #: options/templates/preferences_index.html
 msgid "How ballots, feedback, and check-ins are entered, including online submission options"
-msgstr ""
+msgstr "Cách ballots, nhận xét, và điểm danh được nhập, bao gồm cách thức nhập trực tuyến"
 
 #: options/templates/preferences_index.html
 msgid "What information the site displays on the publicly accessible pages"
