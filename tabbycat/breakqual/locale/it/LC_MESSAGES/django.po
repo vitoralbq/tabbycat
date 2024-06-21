@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2024-06-21 12:04\n"
+"PO-Revision-Date: 2024-06-21 16:40\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -456,74 +456,74 @@ msgstr "%s32F"
 #: breakqual/utils.py
 #, python-format
 msgid "Unknown %s break round"
-msgstr ""
+msgstr "Round di break %s sconosciuto"
 
 #: breakqual/utils.py
 #, python-format
 msgid "U%sBR"
-msgstr ""
+msgstr "RB%sS"
 
 #: breakqual/utils.py
 msgid "Unknown break round"
-msgstr ""
+msgstr "Round di break sconosciuto"
 
 #: breakqual/utils.py
 msgid "UBR"
-msgstr ""
+msgstr "RBS"
 
 #: breakqual/views.py
 #, python-format
 msgid "There was an error generating the break for category %(category)s: %(message)s"
-msgstr ""
+msgstr "Si è verificato un errore durante la generazione del break per la categoria %(category)s: %(message)s"
 
 #: breakqual/views.py
 msgid "Eligible for"
-msgstr ""
+msgstr "Idoneo per"
 
 #: breakqual/views.py
 msgid "Edit Remark"
-msgstr ""
+msgstr "Modifica nota"
 
 #: breakqual/views.py
 #, python-format
 msgid "Changes to breaking team remarks saved and teams break updated for the following break categories: %(categories)s."
-msgstr ""
+msgstr "Modifiche ai commenti del team di break salvati e le squadre di break per le seguenti categorie di break: %(categories)s."
 
 #: breakqual/views.py
 #, python-format
 msgid "Changes to breaking team remarks saved and teams break updated for break category %(category)s."
-msgstr ""
+msgstr "Modifiche ai commenti del team di break salvati e le squadre di break per le seguenti categorie di break: %(category)s."
 
 #: breakqual/views.py
 msgid "Changes to breaking team remarks saved."
-msgstr ""
+msgstr "Modifiche ai commenti del team di break salvate."
 
 #: breakqual/views.py
 #, python-format
 msgid "Teams break generated for the following break categories: %(categories)s."
-msgstr ""
+msgstr "Break di squadre generata per le seguenti categorie di break: %(categories)s."
 
 #: breakqual/views.py
 msgid "Breaking Adjudicators"
-msgstr ""
+msgstr "Giudici di break"
 
 #: breakqual/views.py
 msgid "Four-team formats require the break size to be either six times or four times a power of two."
-msgstr ""
+msgstr "I formati a quattro squadre richiedono che la dimensione del break sia una potenza di due per sei o per quattro."
 
 #: breakqual/views.py
 msgid "Break Eligibility"
-msgstr ""
+msgstr "Ammissibilità break"
 
 #: breakqual/views.py
 #, python-format
 msgid "%s Speakers"
-msgstr ""
+msgstr "%s Speaker"
 
 #: breakqual/views.py
 #, python-format
 msgid "Team has %(nspeakers)s speaker with the %(category)s speaker category assigned"
 msgid_plural "Team has %(nspeakers)s speakers with the %(category)s speaker category assigned"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "La squadra ha %(nspeakers)s debater con la categoria speaker %(category)s assegnata"
+msgstr[1] "La squadra ha %(nspeakers)s debater con la categoria speaker %(category)s assegnata"
 
