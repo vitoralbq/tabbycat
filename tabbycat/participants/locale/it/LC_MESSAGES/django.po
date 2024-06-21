@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-07-04 21:47\n"
+"PO-Revision-Date: 2024-06-21 10:35\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -116,7 +116,7 @@ msgstr ""
 
 #: participants/models.py
 msgid "slug"
-msgstr ""
+msgstr "abbreviazione"
 
 #. Translators: Translate esl to the acronym for "<target language> as a second/foreign language", not "English"
 #: participants/models.py
@@ -129,11 +129,11 @@ msgstr "numero sequenziale"
 
 #: participants/models.py
 msgid "The order in which the categories are displayed"
-msgstr ""
+msgstr "L'ordine di visualizzazione delle categorie"
 
 #: participants/models.py
 msgid "limit"
-msgstr ""
+msgstr "limite"
 
 #: participants/models.py
 msgid "At most this many speakers will be shown on the public tab for this category, or use 0 for no limit"
@@ -265,7 +265,7 @@ msgstr ""
 
 #: participants/models.py
 msgid "break categories"
-msgstr ""
+msgstr "categorie di break"
 
 #: participants/models.py
 msgid "seed"
@@ -888,7 +888,7 @@ msgstr ""
 
 #: participants/views.py
 msgid "Adjudicators"
-msgstr ""
+msgstr "Giudici"
 
 #: participants/views.py
 msgid "Speakers"
@@ -912,7 +912,7 @@ msgstr ""
 
 #: participants/views.py
 msgid "Teams"
-msgstr ""
+msgstr "Squadre"
 
 #: participants/views.py
 msgid "Number of teams"
