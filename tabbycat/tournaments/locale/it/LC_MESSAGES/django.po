@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-07-04 21:47\n"
+"PO-Revision-Date: 2024-06-21 10:36\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -167,7 +167,7 @@ msgstr ""
 
 #: tournaments/models.py
 msgid "slug"
-msgstr ""
+msgstr "abbreviazione"
 
 #: tournaments/models.py
 msgid "The sub-URL of the tournament, cannot have spaces, e.g. \"australs2016\""
@@ -271,7 +271,7 @@ msgstr ""
 
 #: tournaments/models.py
 msgid "break category"
-msgstr ""
+msgstr "categoria di break"
 
 #: tournaments/models.py
 msgid "If elimination round, which break category"
@@ -565,7 +565,7 @@ msgstr ""
 
 #: tournaments/templates/public_tournament_index.html
 msgid "Check-Ins"
-msgstr ""
+msgstr "Check-In"
 
 #: tournaments/templates/public_tournament_index.html
 msgid "Results"
@@ -582,7 +582,7 @@ msgstr "Classifica squadre"
 #: tournaments/templates/public_tournament_index.html
 #, python-format
 msgid "%(category)s Break"
-msgstr ""
+msgstr "%(category)s Break"
 
 #: tournaments/templates/public_tournament_index.html
 msgid "Breaking Adjudicators"
