@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2024-06-21 08:35\n"
+"PO-Revision-Date: 2024-06-21 16:40\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -21,86 +21,86 @@ msgstr ""
 #, python-format
 msgid "%(count)d debate was marked as having its sides confirmed."
 msgid_plural "%(count)d debates were marked as having their sides confirmed."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Il dibattito %(count)d è stato marcato con il side da dibattere confermato."
+msgstr[1] "%(count)d dibattiti sono stati marcato con il side da dibattere confermato."
 
 #: draw/admin.py
 msgid "Mark sides as not confirmed"
-msgstr ""
+msgstr "Imposta il side come non confermato"
 
 #: draw/admin.py
 #, python-format
 msgid "%(count)d debate was marked as having its sides not confirmed."
 msgid_plural "%(count)d debates were marked as having their sides not confirmed."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(count)d dibattito è stato contrassegnato con il side da dibattere non confermato."
+msgstr[1] "%(count)d dibattiti sono stati contrassegnati con il side da dibattere non confermato."
 
 #: draw/apps.py draw/views.py
 msgid "Draw"
-msgstr ""
+msgstr "Sorteggio"
 
 #: draw/generator/__init__.py
 msgid "Too many swaps"
-msgstr ""
+msgstr "Troppi scambi"
 
 #: draw/generator/__init__.py
 msgid "One-up-one-down (history)"
-msgstr ""
+msgstr "Uno su, uno giu (cronologia)"
 
 #: draw/generator/__init__.py
 msgid "One-up-one-down (institution)"
-msgstr ""
+msgstr "Uno su, uno giu (istituto)"
 
 #: draw/generator/__init__.py
 msgid "One-up-one-down (to accommodate)"
-msgstr ""
+msgstr "Uno su, uno giu (per sistemare)"
 
 #: draw/generator/__init__.py
 msgid "Bubble up (history)"
-msgstr ""
+msgstr "Bolla su (cronologia)"
 
 #: draw/generator/__init__.py
 msgid "Bubble down (history)"
-msgstr ""
+msgstr "Bolla giu (cronologia)"
 
 #: draw/generator/__init__.py
 msgid "Bubble up (institution)"
-msgstr ""
+msgstr "Bolla su (istituto)"
 
 #: draw/generator/__init__.py
 msgid "Bubble down (institution)"
-msgstr ""
+msgstr "Bolla giù (istituto)"
 
 #: draw/generator/__init__.py
 msgid "Bubble up (to accommodate)"
-msgstr ""
+msgstr "Bolla su (per sistemare)"
 
 #: draw/generator/__init__.py
 msgid "Bubble down (to accommodate)"
-msgstr ""
+msgstr "Bolla giu (per sistemare)"
 
 #: draw/generator/__init__.py
 msgid "Can't bubble up/down"
-msgstr ""
+msgstr "Impossibile fare bolla su/giù"
 
 #: draw/generator/__init__.py
 msgid "Pull-up team"
-msgstr ""
+msgstr "Squadra in pull-up"
 
 #: draw/generator/bpelimination.py draw/generator/elimination.py
 #, python-format
 msgid "%d debates in the previous round don't have a result."
-msgstr ""
+msgstr "%d dibattiti nel round precedente non hanno un risultato."
 
 #: draw/generator/bpelimination.py
 #, python-format
 msgid "%d debates in the previous round don't have exactly two teams advancing."
-msgstr ""
+msgstr "%d dibattiti nel round precedente non hanno esattamente due squadre in avanzamento."
 
 #: draw/generator/bpelimination.py
 #, python-format
 msgid "The room ranks of the partial elimination round indicate that an odd number of teams (%(nbypassing)d) bypassed it."
-msgstr ""
+msgstr "I ranghi delle aule del round di eliminazione parziale indicano che un numero dispari di squadre (%(nbypassing)d) lo ha bypassato."
 
 #: draw/generator/bpelimination.py
 #, python-format
