@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-07-04 21:47\n"
+"PO-Revision-Date: 2024-06-21 10:35\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -102,19 +102,19 @@ msgstr "speaker%d@example.edu"
 
 #: importer/forms.py
 msgid "Unseeded"
-msgstr ""
+msgstr "Non testa di serie"
 
 #: importer/forms.py
 msgid "Free seed"
-msgstr ""
+msgstr "Teste di serie libere"
 
 #: importer/forms.py
 msgid "Half seed"
-msgstr ""
+msgstr "Semi testa di serie"
 
 #: importer/forms.py
 msgid "Full seed"
-msgstr ""
+msgstr "Completamente teste di serie"
 
 #: importer/forms.py
 msgid "There must be at least one speaker."
@@ -256,7 +256,7 @@ msgstr "Specifica il numero di nuovi giudici da aggiungere per istituto. Nella f
 
 #: importer/templates/simple_import_adjudicators_numbers.html
 msgid "You can add up to 198 adjudicators at a time. If you have more than 198 adjudicators, split them into chunks. (Please don't try to add more than 198 in one go; the system will crash, and you will lose data.)"
-msgstr ""
+msgstr "Puoi aggiungere fino a 198 giudici alla volta. Se hai più di 198 giudici, dividili in pezzi. (Si prega di non cercare di aggiungere più di 198 in una volta; il sistema si bloccherà e si perderanno i dati.)"
 
 #: importer/templates/simple_import_adjudicators_numbers.html
 #: importer/templates/simple_import_teams_numbers.html
@@ -370,7 +370,7 @@ msgstr "Specifica il numero di nuovi team da aggiungere per istituto. Nella fase
 
 #: importer/templates/simple_import_teams_numbers.html
 msgid "You can add up to 141 teams at a time. If you have more than 141 teams, split them into chunks. (Please don't try to add more than 141 in one go; the system will crash, and you will lose data.)"
-msgstr ""
+msgstr "Puoi aggiungere fino a 141 squadre alla volta. Se hai più di 141 squadre, dividile in pezzi. (Si prega di non cercare di aggiungerne più di 141 in una volta; il sistema si bloccherà e si perderanno i dati.)"
 
 #: importer/templates/simple_import_venues_details.html
 #: importer/templates/simple_import_venues_raw.html
