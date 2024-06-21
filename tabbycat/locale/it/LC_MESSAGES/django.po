@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2024-06-21 08:35\n"
+"PO-Revision-Date: 2024-06-21 10:35\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -32,7 +32,7 @@ msgstr ""
 #: checkins/apps.py templates/nav/admin_nav.html
 #: templates/nav/assistant_nav.html templates/nav/public_nav.html
 msgid "Check-Ins"
-msgstr ""
+msgstr "Check-In"
 
 #: checkins/consumers.py
 msgid "Sent checkin identifier doesn't exist"
@@ -194,11 +194,11 @@ msgstr ""
 
 #: checkins/views.py templates/nav/public_nav.html
 msgid "Adjudicators"
-msgstr ""
+msgstr "Giudici"
 
 #: checkins/views.py
 msgid "Rooms"
-msgstr ""
+msgstr "Aule"
 
 #: checkins/views.py
 #, python-format
@@ -602,7 +602,7 @@ msgstr ""
 
 #: templates/nav/admin_nav.html
 msgid "Teams"
-msgstr ""
+msgstr "Squadre"
 
 #: templates/nav/admin_nav.html templates/nav/public_nav.html
 #, python-format
@@ -632,7 +632,7 @@ msgstr ""
 
 #: templates/nav/admin_nav.html
 msgid "Breaks"
-msgstr ""
+msgstr "Break"
 
 #: templates/nav/admin_nav.html
 #, python-format
@@ -738,7 +738,7 @@ msgstr ""
 
 #: templates/nav/public_nav.html
 msgid "Break"
-msgstr ""
+msgstr "Break"
 
 #: templates/nav/public_nav.html
 msgid "Feedback Progress"
