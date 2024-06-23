@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-07-04 21:50\n"
+"POT-Creation-Date: 2024-06-24 07:48+1000\n"
+"PO-Revision-Date: 2024-06-23 22:00\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -29,6 +29,10 @@ msgid_plural "Resaved results for %(count)d ballot submissions."
 msgstr[0] "%(count)d ballot gönderimi için sonuçlar yeniden kaydedildi."
 msgstr[1] "%(count)d ballot gönderimi için sonuçlar yeniden kaydedildi."
 
+#: results/admin.py
+msgid "Speaker"
+msgstr "Konuşmacı"
+
 #: results/apps.py results/templates/public_results_index.html results/views.py
 msgid "Results"
 msgstr "Sonuçlar"
@@ -40,15 +44,6 @@ msgstr "Turnuva Parolası"
 #: results/forms.py
 msgid "That password isn't correct."
 msgstr "Bu parola doğru değil."
-
-#: results/forms.py
-msgid "Please enter a whole number."
-msgstr "Lütfen bir tam sayı girin."
-
-#: results/forms.py
-#, python-format
-msgid "Please enter a multiple of %s."
-msgstr "Lütfen %s'in katını girin."
 
 #: results/forms.py
 msgid "The ballot set can't be both discarded and confirmed."
@@ -168,6 +163,10 @@ msgstr "Tab odası"
 #: results/models.py
 msgid "Public"
 msgstr "Herkese açık"
+
+#: results/models.py
+msgid "Automation"
+msgstr ""
 
 #: results/models.py
 msgid "timestamp"
@@ -349,6 +348,54 @@ msgstr "Tartışma takımı ve konuşmacı aynı takımdan olmalıdır."
 #: results/models.py
 msgid "The ballot submission and debate team must relate to the same debate."
 msgstr "Ballot teslimi ve tartışma takımı aynı maçla ilgili olmalıdır."
+
+#: results/models.py
+msgid "tournament"
+msgstr "turnuva"
+
+#: results/models.py
+msgid "sequence"
+msgstr ""
+
+#: results/models.py
+msgid "weight"
+msgstr "ağırlık"
+
+#: results/models.py
+msgid "minimum score"
+msgstr ""
+
+#: results/models.py
+msgid "maximum score"
+msgstr ""
+
+#: results/models.py
+msgid "step"
+msgstr ""
+
+#: results/models.py
+msgid "score criterion"
+msgstr ""
+
+#: results/models.py
+msgid "score criteria"
+msgstr ""
+
+#: results/models.py
+msgid "speaker score for criterion"
+msgstr ""
+
+#: results/models.py
+msgid "speaker scores for criteria"
+msgstr ""
+
+#: results/models.py
+msgid "speaker score for criterion by adjudicator"
+msgstr ""
+
+#: results/models.py
+msgid "speaker scores for criteria by adjudicator"
+msgstr ""
 
 #: results/tables.py
 msgid "Whether this debate's ballot has been checked in"
@@ -1087,17 +1134,4 @@ msgstr "Jüri"
 #: results/views.py
 msgid "Merge Ballots"
 msgstr "Ballotları Birleştir"
-
-#: results/views.py
-msgid "The speaking order in the ballots is inconsistent, so could not be merged."
-msgstr "Ballotlardaki konuşma sırası tutarsız, bu yüzden birleştirilemedi."
-
-#: results/views.py
-msgid "Duplicate speeches are marked inconsistently, so could not be merged."
-msgstr "Yinelenen konuşmalar tutarsız bir şekilde işaretli, bu nedenle birleştirilemez."
-
-#: results/views.py
-#, python-format
-msgid " This error was caught in <a href='%(ballot_url)s'>%(adjudicator)s's ballot</a> for %(speaker)s (%(team)s)."
-msgstr " Bu hata <a href='%(ballot_url)s'>%(adjudicator)s'ın %(speaker)s (%(team)s) için olan ballotunda</a> bulundu."
 
