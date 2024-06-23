@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-24 07:48+1000\n"
-"PO-Revision-Date: 2024-06-23 21:57\n"
+"PO-Revision-Date: 2024-06-23 23:07\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -245,7 +245,7 @@ msgstr "équipe"
 
 #: draw/models.py
 msgid "side sequence"
-msgstr ""
+msgstr "séquence de côté"
 
 #: draw/models.py
 msgid "debate team"
@@ -275,7 +275,7 @@ msgstr "perdu"
 #: draw/models.py
 #, python-format
 msgid "Team %d"
-msgstr ""
+msgstr "Équipe %d"
 
 #: draw/models.py
 msgid "team side allocation"
@@ -294,7 +294,7 @@ msgstr "%(side)s: %(metric)s"
 
 #: draw/tables.py
 msgid "Bye"
-msgstr ""
+msgstr "Exempt"
 
 #: draw/tables.py
 #, python-format
