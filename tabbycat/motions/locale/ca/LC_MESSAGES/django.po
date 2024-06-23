@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2024-01-19 18:04\n"
+"POT-Creation-Date: 2024-06-24 07:48+1000\n"
+"PO-Revision-Date: 2024-06-23 21:58\n"
 "Last-Translator: \n"
 "Language-Team: Catalan\n"
 "Language: ca_ES\n"
@@ -348,11 +348,11 @@ msgid "There are no motions for this round entered into Tabbycat."
 msgstr "No hi ha mocions introduïdes per a aquesta ronda a Tabbycat."
 
 #: motions/utils.py
-msgid "Not all latest ballots list the same motion, so could not be merged."
-msgstr "No totes les taules de resultats més recents llisten la mateixa moció, per la qual cosa no es podrien fusionar."
+msgid "Not all latest ballots have the same motion. The correct motion must be set manually."
+msgstr ""
 
 #: motions/utils.py
-msgid "Motion vetos are inconsistent, so could not be merged."
+msgid "Motion vetos are inconsistent; they must be set manually."
 msgstr ""
 
 #: motions/views.py
