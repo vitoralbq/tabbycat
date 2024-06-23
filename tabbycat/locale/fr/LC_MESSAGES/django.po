@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-24 07:48+1000\n"
-"PO-Revision-Date: 2024-06-23 21:58\n"
+"PO-Revision-Date: 2024-06-23 23:07\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -954,15 +954,15 @@ msgstr "Les utilisateurs ayant le status équipe peuvent voir et modifier la zon
 
 #: users/admin.py
 msgid "Personal info"
-msgstr ""
+msgstr "Infos Personnelles"
 
 #: users/admin.py
 msgid "Permissions"
-msgstr ""
+msgstr "Permissions"
 
 #: users/admin.py
 msgid "Important dates"
-msgstr ""
+msgstr "Dates clés"
 
 #: users/forms.py
 msgid "Email address"
@@ -970,23 +970,23 @@ msgstr ""
 
 #: users/forms.py
 msgid "Username"
-msgstr ""
+msgstr "Nom d’utilisateur"
 
 #: users/groups.py
 msgid "Equity"
-msgstr ""
+msgstr "Équité"
 
 #: users/groups.py
 msgid "Adjudication Core"
-msgstr ""
+msgstr "Sein des juges"
 
 #: users/groups.py
 msgid "Tabulation Director"
-msgstr ""
+msgstr "Directeur de jumelage"
 
 #: users/groups.py
 msgid "Tabulation Assistant"
-msgstr ""
+msgstr "Assistant de jumelage"
 
 #: users/models.py
 msgid "user"
@@ -994,15 +994,15 @@ msgstr "utilisateur"
 
 #: users/models.py
 msgid "permission"
-msgstr ""
+msgstr "permission"
 
 #: users/models.py
 msgid "user permission"
-msgstr ""
+msgstr "permission d'utilisateur"
 
 #: users/models.py
 msgid "user permissions"
-msgstr ""
+msgstr "permissions d'utilisateur"
 
 #: users/models.py
 msgid "name"
@@ -1010,15 +1010,15 @@ msgstr "nom"
 
 #: users/models.py
 msgid "permissions"
-msgstr ""
+msgstr "permissions"
 
 #: users/models.py
 msgid "group"
-msgstr ""
+msgstr "groupe"
 
 #: users/models.py
 msgid "groups"
-msgstr ""
+msgstr "groupes"
 
 #: users/models.py
 msgid "group membership"
@@ -1474,7 +1474,7 @@ msgstr ""
 
 #: users/templates/account_invitation_email.html
 msgid "Hello!"
-msgstr ""
+msgstr "Bonjour !"
 
 #: users/templates/account_invitation_email.html
 #, python-format
@@ -1505,12 +1505,12 @@ msgstr "Retour au Configuration"
 #: users/templates/invite_user.html
 msgctxt "button"
 msgid "Invite User"
-msgstr ""
+msgstr "Inviter un utilisateur"
 
 #: users/templates/signup.html
 msgctxt "page title"
 msgid "Create a new Account"
-msgstr ""
+msgstr "Créer un nouveau compte"
 
 #: users/templates/signup.html
 msgid "Create Account"
@@ -1527,9 +1527,9 @@ msgstr "Bienvenue ! Vous avez créé un compte pour %s."
 
 #: users/views.py
 msgid "Invite User"
-msgstr ""
+msgstr "Inviter un utilisateur"
 
 #: users/views.py
 msgid "Accept Invitation"
-msgstr ""
+msgstr "Accepter invitation"
 
