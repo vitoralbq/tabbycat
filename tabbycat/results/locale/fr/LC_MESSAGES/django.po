@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-08-05 13:02\n"
+"POT-Creation-Date: 2024-06-24 07:48+1000\n"
+"PO-Revision-Date: 2024-06-23 21:59\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -29,6 +29,10 @@ msgid_plural "Resaved results for %(count)d ballot submissions."
 msgstr[0] "Re-sauvegardé les résultats pour %(count)d soumission de feuille."
 msgstr[1] "Re-sauvegardé les résultats pour %(count)d soumissions de feuille."
 
+#: results/admin.py
+msgid "Speaker"
+msgstr "Orateur"
+
 #: results/apps.py results/templates/public_results_index.html results/views.py
 msgid "Results"
 msgstr "Résultats"
@@ -40,15 +44,6 @@ msgstr "Mot de passe du tournoi"
 #: results/forms.py
 msgid "That password isn't correct."
 msgstr "Ce n'est pas le bon mot de passe."
-
-#: results/forms.py
-msgid "Please enter a whole number."
-msgstr "Veuillez saisir un nombre entier."
-
-#: results/forms.py
-#, python-format
-msgid "Please enter a multiple of %s."
-msgstr "Veuillez saisir un multiple de %s."
 
 #: results/forms.py
 msgid "The ballot set can't be both discarded and confirmed."
@@ -168,6 +163,10 @@ msgstr "Salle de tabulation"
 #: results/models.py
 msgid "Public"
 msgstr "Publique"
+
+#: results/models.py
+msgid "Automation"
+msgstr ""
 
 #: results/models.py
 msgid "timestamp"
@@ -349,6 +348,54 @@ msgstr "La débat-équipe et l'orateur doivent être de la même équipe."
 #: results/models.py
 msgid "The ballot submission and debate team must relate to the same debate."
 msgstr "La soumission de feuille et la débat-équipe doivent concerner le même débat."
+
+#: results/models.py
+msgid "tournament"
+msgstr "tournoi"
+
+#: results/models.py
+msgid "sequence"
+msgstr ""
+
+#: results/models.py
+msgid "weight"
+msgstr "poids"
+
+#: results/models.py
+msgid "minimum score"
+msgstr ""
+
+#: results/models.py
+msgid "maximum score"
+msgstr ""
+
+#: results/models.py
+msgid "step"
+msgstr ""
+
+#: results/models.py
+msgid "score criterion"
+msgstr ""
+
+#: results/models.py
+msgid "score criteria"
+msgstr ""
+
+#: results/models.py
+msgid "speaker score for criterion"
+msgstr ""
+
+#: results/models.py
+msgid "speaker scores for criteria"
+msgstr ""
+
+#: results/models.py
+msgid "speaker score for criterion by adjudicator"
+msgstr ""
+
+#: results/models.py
+msgid "speaker scores for criteria by adjudicator"
+msgstr ""
 
 #: results/tables.py
 msgid "Whether this debate's ballot has been checked in"
@@ -1087,17 +1134,4 @@ msgstr "Juge"
 #: results/views.py
 msgid "Merge Ballots"
 msgstr "Fusionner feuilles"
-
-#: results/views.py
-msgid "The speaking order in the ballots is inconsistent, so could not be merged."
-msgstr ""
-
-#: results/views.py
-msgid "Duplicate speeches are marked inconsistently, so could not be merged."
-msgstr ""
-
-#: results/views.py
-#, python-format
-msgid " This error was caught in <a href='%(ballot_url)s'>%(adjudicator)s's ballot</a> for %(speaker)s (%(team)s)."
-msgstr ""
 
