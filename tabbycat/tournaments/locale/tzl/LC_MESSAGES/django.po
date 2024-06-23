@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-07-04 21:55\n"
+"POT-Creation-Date: 2024-06-24 07:48+1000\n"
+"PO-Revision-Date: 2024-06-23 22:00\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Talossan\n"
 "Language: tzl_TZL\n"
@@ -56,8 +56,8 @@ msgid "Format Configuration"
 msgstr "crwdns33102:0crwdne33102:0"
 
 #: tournaments/forms.py
-msgid "Apply a standard set of settings to match a common debate format"
-msgstr "crwdns33104:0crwdne33104:0"
+msgid "Apply a standard set of settings to match a common debate format. These can be changed afterwards and should be checked for your needs."
+msgstr "crwdns52860:0crwdne52860:0"
 
 #: tournaments/forms.py
 msgid "Public Configuration"
@@ -819,10 +819,6 @@ msgstr "crwdns51490:0%(round)scrwdne51490:0"
 msgid "Go to the results area to enter ballots for %(round)s"
 msgstr "crwdns52245:0%(round)scrwdne52245:0"
 
-#: tournaments/templates/tournament_index.html
-msgid "You have enabled a URL that allows users to create new accounts. You should <strong>disable it once the tournament starts</strong>."
-msgstr "crwdns52149:0crwdne52149:0"
-
 #: tournaments/templates/tournament_index_links.html
 #, python-format
 msgid "Administrator area for <strong>%(tn)s</strong>"
@@ -947,6 +943,14 @@ msgid "Res"
 msgstr "crwdns33516:0crwdne33516:0"
 
 #: tournaments/utils.py
+msgid "1st team"
+msgstr "crwdns52862:0crwdne52862:0"
+
+#: tournaments/utils.py
+msgid "2nd team"
+msgstr "crwdns52864:0crwdne52864:0"
+
+#: tournaments/utils.py
 msgid "opening government"
 msgstr "crwdns33518:0crwdne33518:0"
 
@@ -1008,6 +1012,15 @@ msgstr "crwdns33542:0%(number)dcrwdne33542:0"
 #, python-format
 msgid "R%(number)d"
 msgstr "crwdns33544:0%(number)dcrwdne33544:0"
+
+#: tournaments/utils.py
+msgid "bye"
+msgstr "crwdns52866:0crwdne52866:0"
+
+#: tournaments/utils.py
+#, python-format
+msgid "Team %d"
+msgstr "crwdns52868:0%dcrwdne52868:0"
 
 #: tournaments/views.py
 #, python-format
