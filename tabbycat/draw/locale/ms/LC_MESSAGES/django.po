@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-07-04 21:54\n"
+"POT-Creation-Date: 2024-06-24 07:48+1000\n"
+"PO-Revision-Date: 2024-06-23 21:58\n"
 "Last-Translator: \n"
 "Language-Team: Malay\n"
 "Language: ms_MY\n"
@@ -238,35 +238,11 @@ msgid " vs "
 msgstr ""
 
 #: draw/models.py
-msgid "affirmative"
-msgstr ""
-
-#: draw/models.py
-msgid "negative"
-msgstr ""
-
-#: draw/models.py
-msgid "opening government"
-msgstr ""
-
-#: draw/models.py
-msgid "opening opposition"
-msgstr ""
-
-#: draw/models.py
-msgid "closing government"
-msgstr ""
-
-#: draw/models.py
-msgid "closing opposition"
-msgstr ""
-
-#: draw/models.py
 msgid "team"
 msgstr "pasukan"
 
 #: draw/models.py
-msgid "side"
+msgid "side sequence"
 msgstr ""
 
 #: draw/models.py
@@ -295,6 +271,11 @@ msgid "lost"
 msgstr ""
 
 #: draw/models.py
+#, python-format
+msgid "Team %d"
+msgstr ""
+
+#: draw/models.py
 msgid "team side allocation"
 msgstr ""
 
@@ -307,6 +288,10 @@ msgstr ""
 #: draw/tables.py
 #, python-format
 msgid "%(side)s: %(metric)s"
+msgstr ""
+
+#: draw/tables.py
+msgid "Bye"
 msgstr ""
 
 #: draw/tables.py
