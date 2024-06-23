@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-08-05 12:04\n"
+"POT-Creation-Date: 2024-06-24 07:48+1000\n"
+"PO-Revision-Date: 2024-06-23 21:57\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -240,36 +240,12 @@ msgid " vs "
 msgstr " vs "
 
 #: draw/models.py
-msgid "affirmative"
-msgstr "affirmatif"
-
-#: draw/models.py
-msgid "negative"
-msgstr "négatif"
-
-#: draw/models.py
-msgid "opening government"
-msgstr "premier gouvernement"
-
-#: draw/models.py
-msgid "opening opposition"
-msgstr "première opposition"
-
-#: draw/models.py
-msgid "closing government"
-msgstr "second gouvernement"
-
-#: draw/models.py
-msgid "closing opposition"
-msgstr "seconde opposition"
-
-#: draw/models.py
 msgid "team"
 msgstr "équipe"
 
 #: draw/models.py
-msgid "side"
-msgstr "côté"
+msgid "side sequence"
+msgstr ""
 
 #: draw/models.py
 msgid "debate team"
@@ -297,6 +273,11 @@ msgid "lost"
 msgstr "perdu"
 
 #: draw/models.py
+#, python-format
+msgid "Team %d"
+msgstr ""
+
+#: draw/models.py
 msgid "team side allocation"
 msgstr "répartition des côté aux équipes"
 
@@ -310,6 +291,10 @@ msgstr "répartitions des côtés aux équipes"
 #, python-format
 msgid "%(side)s: %(metric)s"
 msgstr "%(side)s: %(metric)s"
+
+#: draw/tables.py
+msgid "Bye"
+msgstr ""
 
 #: draw/tables.py
 #, python-format
