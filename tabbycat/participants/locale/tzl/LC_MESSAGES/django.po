@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-07-04 21:55\n"
+"POT-Creation-Date: 2024-06-24 07:48+1000\n"
+"PO-Revision-Date: 2024-06-23 21:59\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Talossan\n"
 "Language: tzl_TZL\n"
@@ -533,9 +533,8 @@ msgid "Motion:"
 msgstr "crwdns32064:0crwdne32064:0"
 
 #: participants/templates/current_round/common.html
-#, python-format
-msgid "Motion %(seq)s:"
-msgstr "crwdns32066:0%(seq)scrwdne32066:0"
+msgid "View Info Slide"
+msgstr "crwdns52828:0crwdne52828:0"
 
 #: participants/templates/current_round/common.html
 msgid "The motion(s) for this round haven't yet been released."
