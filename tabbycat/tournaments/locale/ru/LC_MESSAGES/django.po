@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-07-04 21:49\n"
+"POT-Creation-Date: 2024-06-24 07:48+1000\n"
+"PO-Revision-Date: 2024-06-23 22:00\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -56,8 +56,8 @@ msgid "Format Configuration"
 msgstr "Конфигурация формата"
 
 #: tournaments/forms.py
-msgid "Apply a standard set of settings to match a common debate format"
-msgstr "Применить стандартные настройки для соответствия обычному формату дебатов"
+msgid "Apply a standard set of settings to match a common debate format. These can be changed afterwards and should be checked for your needs."
+msgstr ""
 
 #: tournaments/forms.py
 msgid "Public Configuration"
@@ -823,10 +823,6 @@ msgstr "Перейдите в область создания сетки для 
 msgid "Go to the results area to enter ballots for %(round)s"
 msgstr ""
 
-#: tournaments/templates/tournament_index.html
-msgid "You have enabled a URL that allows users to create new accounts. You should <strong>disable it once the tournament starts</strong>."
-msgstr ""
-
 #: tournaments/templates/tournament_index_links.html
 #, python-format
 msgid "Administrator area for <strong>%(tn)s</strong>"
@@ -951,6 +947,14 @@ msgid "Res"
 msgstr "Отв"
 
 #: tournaments/utils.py
+msgid "1st team"
+msgstr ""
+
+#: tournaments/utils.py
+msgid "2nd team"
+msgstr ""
+
+#: tournaments/utils.py
 msgid "opening government"
 msgstr "первое правительство"
 
@@ -1012,6 +1016,15 @@ msgstr "Раунд %(number)d"
 #, python-format
 msgid "R%(number)d"
 msgstr "Р%(number)d"
+
+#: tournaments/utils.py
+msgid "bye"
+msgstr ""
+
+#: tournaments/utils.py
+#, python-format
+msgid "Team %d"
+msgstr ""
 
 #: tournaments/views.py
 #, python-format
