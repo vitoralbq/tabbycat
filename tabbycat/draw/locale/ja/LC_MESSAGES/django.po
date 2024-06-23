@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-05 07:37+1000\n"
-"PO-Revision-Date: 2023-09-10 07:54\n"
+"POT-Creation-Date: 2024-06-24 07:48+1000\n"
+"PO-Revision-Date: 2024-06-23 21:57\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -238,36 +238,12 @@ msgid " vs "
 msgstr "対"
 
 #: draw/models.py
-msgid "affirmative"
-msgstr "肯定側"
-
-#: draw/models.py
-msgid "negative"
-msgstr "否定側"
-
-#: draw/models.py
-msgid "opening government"
-msgstr "Opening Government"
-
-#: draw/models.py
-msgid "opening opposition"
-msgstr "Opening Opposition"
-
-#: draw/models.py
-msgid "closing government"
-msgstr "Closing Government"
-
-#: draw/models.py
-msgid "closing opposition"
-msgstr "Closing Opposition"
-
-#: draw/models.py
 msgid "team"
 msgstr "チーム"
 
 #: draw/models.py
-msgid "side"
-msgstr "サイド"
+msgid "side sequence"
+msgstr ""
 
 #: draw/models.py
 msgid "debate team"
@@ -295,6 +271,11 @@ msgid "lost"
 msgstr "負け"
 
 #: draw/models.py
+#, python-format
+msgid "Team %d"
+msgstr ""
+
+#: draw/models.py
 msgid "team side allocation"
 msgstr "チームサイドのアロケーション"
 
@@ -307,6 +288,10 @@ msgstr "チームサイドのアロケーション"
 #: draw/tables.py
 #, python-format
 msgid "%(side)s: %(metric)s"
+msgstr ""
+
+#: draw/tables.py
+msgid "Bye"
 msgstr ""
 
 #: draw/tables.py
