@@ -171,7 +171,7 @@ urlname = match.group(1)
 heroku_url = match.group(2)
 
 # Add the redis add-ons (the heroku one needs a config flag)
-run_heroku_command(["addons:create", "heroku-redis:mini",
+run_heroku_command(["addons:create", "heroku-redis:premium-0",
                     "--maxmemory_policy", "allkeys-lru", "--timeout", "1800"])
 
 # Set build packs
