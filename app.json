@@ -10,7 +10,7 @@
     "rediscloud:30",
     "heroku-postgresql:mini",
     {
-      "plan": "heroku-redis:mini",
+      "plan": "heroku-redis:premium-0",
       "options": {
         "maxmemory-policy": "allkeys-lru",
         "timeout": 1800
