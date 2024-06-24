@@ -39,8 +39,8 @@ parser.add_argument(
     help="Git branch to push (defaults to current branch)")
 
 parser.add_argument(
-    "--pg-plan", "--postgresql-plan", type=str, default="mini",
-    help="Heroku Postgres plan (default mini)")
+    "--pg-plan", "--postgresql-plan", type=str, default="premium-0",
+    help="Heroku Postgres plan (default premium-0)")
 
 parser.add_argument(
     "--web-dynos", type=str, default="1",
@@ -171,7 +171,7 @@ urlname = match.group(1)
 heroku_url = match.group(2)
 
 # Add the redis add-ons (the heroku one needs a config flag)
-run_heroku_command(["addons:create", "heroku-redis:mini",
+run_heroku_command(["addons:create", "heroku-redis:premium-0",
                     "--maxmemory_policy", "allkeys-lru", "--timeout", "1800"])
 
 # Set build packs
